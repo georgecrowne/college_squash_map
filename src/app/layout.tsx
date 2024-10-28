@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Heading } from "@/components/Heading";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,11 +25,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-full flex-col overflow-hidden`}
       >
-        {children}
+        <Heading level={1} className="p-4">
+          College Squash Map
+        </Heading>
+        <hr className="w-full border-t border-gray-600" />
+        <div className="p-4 h-full">{children}</div>
       </body>
     </html>
   );
