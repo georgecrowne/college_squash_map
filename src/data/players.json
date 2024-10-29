@@ -1,0 +1,60 @@
+{
+    "year": "2022",
+    "players": [
+        {
+            "name": "George Crowne",
+            "team": "Harvard",
+            "city": "Oakville",
+            "country": "Canada",
+            "lng": -79.6872,
+            "lat": 43.4501,
+            "record": "12-3",
+            "team_position": 2,
+            "rating": 5.23
+        },
+        {
+            "name": "Victor Crouin",
+            "team": "Harvard",
+            "city": "Toulon",
+            "country": "France",
+            "lng": 5.9285,
+            "lat": 43.1242,
+            "record": "12-3",
+            "team_position": 2,
+            "rating": 5.23
+        },
+        {
+            "name": "Marwan Tarek",
+            "team": "Harvard",
+            "city": "Cairo",
+            "country": "Egypt",
+            "lng": 31.2357,
+            "lat": 30.0444,
+            "record": "12-3",
+            "team_position": 2,
+            "rating": 5.23
+        },
+        {
+            "name": "James Flynn",
+            "team": "Penn",
+            "city": "Toronto",
+            "country": "Canada",
+            "lng": -79.3832,
+            "lat": 43.6511,
+            "record": "12-3",
+            "team_position": 2,
+            "rating": 5.23
+        },
+        {
+            "name": "Nathan Kuen",
+            "team": "Penn",
+            "city": "Kuala Lumpur",
+            "country": "Malaysia",
+            "lng": 101.6953,
+            "lat": 3.1390,
+            "record": "12-3",
+            "team_position": 2,
+            "rating": 5.23
+        }
+    ]
+}
