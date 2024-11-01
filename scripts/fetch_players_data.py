@@ -61,7 +61,7 @@ def fetch_teams_for_year(year_id: str) -> List[dict]:
     return response.json()
 
 
-def fetch_players_for_year(year: str, limit: int = 100) -> List[RawPlayer]:
+def fetch_players_for_year(year: str, limit: int = 200) -> List[RawPlayer]:
     year_id = YEAR_IDS[year]
     teams = fetch_teams_for_year(year_id)
     players = []
@@ -154,19 +154,26 @@ def raw_player_to_player_data(raw_player: RawPlayer) -> Player:
 
 if __name__ == "__main__":
     import argparse
+    from write_players_json import combine_player_data
 
     parser = argparse.ArgumentParser(
-        description="Fetch college squash player data for a given year"
+        description="Fetch college squash player data for specified years"
     )
-    parser.add_argument("year", help="The year to fetch data for (e.g. 2022)")
+    parser.add_argument(
+        "years", nargs="+", help="The years to fetch data for (e.g. 2022 2023)"
+    )
     args = parser.parse_args()
 
-    players = fetch_players_for_year(args.year)
-    player_data = [raw_player_to_player_data(player) for player in players]
-    print(f"Fetched {len(player_data)} players for {args.year}")
+    for year in args.years:
+        players = fetch_players_for_year(year)
+        player_data = [raw_player_to_player_data(player) for player in players]
+        print(f"Fetched {len(player_data)} players for {year}")
 
-    response = PlayerResponse(year=args.year, players=player_data)
-    output_file = f"{args.year}_player_data.json"
-    with open(output_file, "w") as f:
-        json.dump(response.dict(), f, indent=4)
-    print(f"Saved player data to {output_file}")
+        response = PlayerResponse(year=year, players=player_data)
+        output_file = f"{year}_player_data.json"
+        with open(output_file, "w") as f:
+            json.dump(response.dict(), f, indent=4)
+        print(f"Saved player data to {output_file}")
+
+    combine_player_data()
+    print("Combined all player data into src/data/players.json")
