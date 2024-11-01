@@ -31,6 +31,9 @@ export default function RootLayout({
       >
         <Heading level={1} className="p-4">
           College Squash Map
+          <span className="block text-sm font-normal md:hidden">
+            (no map in mobile)
+          </span>
         </Heading>
         <hr className="w-full border-t border-gray-600" />
         <div className="p-4 h-full">{children}</div>

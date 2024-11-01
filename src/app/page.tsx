@@ -56,8 +56,8 @@ export default function Home() {
 
   return (
     <div className="flex flex-col gap-2 h-full">
-      <div className="flex gap-2 h-full">
-        <div className="w-1/3 h-full">
+      <div className="flex flex-col md:flex-row gap-2 h-full">
+        <div className="w-full md:w-1/3 h-full flex flex-col">
           <>
             <div className="rounded-lg bg-white mb-2">
               <label htmlFor="year">Year:</label>
@@ -87,7 +87,7 @@ export default function Home() {
                 No players found for the selected year.
               </div>
             ) : (
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 overflow-y-auto flex-1">
                 {Object.entries(
                   playersData.reduce((acc, player) => {
                     if (!acc[player.team]) {
@@ -123,7 +123,7 @@ export default function Home() {
             )}
           </>
         </div>
-        <div className="w-2/3 flex flex-col h-full">
+        <div className="w-full md:w-2/3 flex flex-col h-full">
           <div className={selectedPlayer ? "h-2/3" : "h-full"}>
             <CollegeSquashMap
               currentPlayer={selectedPlayer}
