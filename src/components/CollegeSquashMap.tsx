@@ -5,8 +5,7 @@ import mapboxgl, { LngLatLike, Map } from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { FeatureCollection } from "geojson";
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiZ2VvcmdlY3Jvd25lIiwiYSI6ImNrZDk3d3dnNzB0NW8ycWx2dzg1M2lram8ifQ.5Bh5bYujHfJSAUKDunDQZA";
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN || "";
 
 const DEFAULT_MAP_LAT_LNG = [-98.5795, 39.8283];
 const DEFAULT_MAP_ZOOM = 3;
@@ -17,6 +16,7 @@ interface Player {
   team: string;
   city: string;
   country: string;
+  display_location: string;
   lng: number;
   lat: number;
 }
@@ -33,19 +33,20 @@ export default function CollegeSquashMap({
   const mapRef = useRef<Map | null>(null);
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const popupRef = useRef<mapboxgl.Popup | null>(null);
+  const mapLoadedRef = useRef(false);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const createPopupHTML = (player: Player | null) => {
     if (!player) return "";
     return `
       <div class="mapbox-popup" style="color: black;">
         <div>${player.name}</div>
         <div class="mapbox-popup-body">${player.team}</div>
-        <div class="mapbox-popup-body">${player.city}, ${player.country}</div>
+        <div class="mapbox-popup-body">${player.display_location}</div>
       </div>
     `;
   };
 
-  // Initialize map only once
   useEffect(() => {
     if (mapContainerRef.current && !mapRef.current) {
       const map = new mapboxgl.Map({
@@ -58,12 +59,25 @@ export default function CollegeSquashMap({
       mapRef.current = map;
 
       map.on("load", () => {
-        // Initialize empty source
+        mapLoadedRef.current = true;
+
         map.addSource("players", {
           type: "geojson",
           data: {
             type: "FeatureCollection",
-            features: [],
+            features: players.map((player) => ({
+              type: "Feature",
+              properties: {
+                player: player.name,
+                team: player.team,
+                city: player.city,
+                display_location: player.display_location,
+              },
+              geometry: {
+                type: "Point",
+                coordinates: [player.lng ?? 0, player.lat ?? 0],
+              },
+            })),
           },
         });
 
@@ -77,7 +91,6 @@ export default function CollegeSquashMap({
           },
         });
 
-        // Add event listeners
         map.on("click", "player-markers", (e) => {
           const features = e.features;
           if (features && features.length > 0) {
@@ -85,18 +98,16 @@ export default function CollegeSquashMap({
               features[0].geometry as { coordinates: number[] }
             ).coordinates.slice();
             const playersHTML = features
-              .map(
-                (feature) => `
-                <div class="mapbox-popup" style="color: black;">
-                  <div>${feature.properties?.player ?? ""}</div>
-                  <div class="mapbox-popup-body">${
-                    feature.properties?.team ?? ""
-                  }</div>
-                  <div class="mapbox-popup-body">${
-                    feature.properties?.city + ", " ?? ""
-                  } ${feature.properties?.country ?? ""}</div>
-                </div>
-              `
+              .map((feature) =>
+                createPopupHTML({
+                  name: feature.properties?.player ?? "",
+                  team: feature.properties?.team ?? "",
+                  city: feature.properties?.city ?? "",
+                  country: "",
+                  display_location: feature.properties?.display_location ?? "",
+                  lng: coordinates[0],
+                  lat: coordinates[1],
+                })
               )
               .join('<hr class="my-2">');
 
@@ -127,31 +138,31 @@ export default function CollegeSquashMap({
       mapRef.current?.remove();
       mapRef.current = null;
     };
-  }, []); // Empty dependency array since we only want to initialize once
+  }, [players]);
 
-  // Update markers when players change
   useEffect(() => {
-    if (mapRef.current && mapRef.current.loaded()) {
-      const playerGeoJSON: FeatureCollection = {
-        type: "FeatureCollection",
-        features: players.map((player) => ({
-          type: "Feature",
-          properties: {
-            player: player.name,
-            team: player.team,
-            city: player.city,
-            country: player.country,
-          },
-          geometry: {
-            type: "Point",
-            coordinates: [player.lng ?? 0, player.lat ?? 0],
-          },
-        })),
-      };
+    if (mapRef.current && mapLoadedRef.current) {
+      const source = mapRef.current.getSource("players");
+      if (source) {
+        const playerGeoJSON: FeatureCollection = {
+          type: "FeatureCollection",
+          features: players.map((player) => ({
+            type: "Feature",
+            properties: {
+              player: player.name,
+              team: player.team,
+              city: player.city,
+              display_location: player.display_location,
+            },
+            geometry: {
+              type: "Point",
+              coordinates: [player.lng ?? 0, player.lat ?? 0],
+            },
+          })),
+        };
 
-      (mapRef.current.getSource("players") as mapboxgl.GeoJSONSource).setData(
-        playerGeoJSON
-      );
+        (source as mapboxgl.GeoJSONSource).setData(playerGeoJSON);
+      }
     }
   }, [players]);
 
@@ -163,7 +174,6 @@ export default function CollegeSquashMap({
         duration: 2000,
       });
 
-      // Create and show popup for selected player
       popupRef.current?.remove();
       popupRef.current = new mapboxgl.Popup({
         className: "mapbox-popup",

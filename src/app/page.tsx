@@ -12,27 +12,46 @@ import {
 import players from "@/data/players.json";
 import { useState, useMemo } from "react";
 
+interface Player {
+  name: string;
+  team: string;
+  city: string;
+  country: string;
+  display_location: string;
+  record: string;
+  team_position: number | null;
+  rating: number;
+  lng: number;
+  lat: number;
+}
+
 const yearOptions = [
+  { value: "2018", text: "2017-2018" },
   { value: "2019", text: "2018-2019" },
   { value: "2020", text: "2019-2020" },
   { value: "2021", text: "2020-2021" },
   { value: "2022", text: "2021-2022" },
   { value: "2023", text: "2022-2023" },
   { value: "2024", text: "2023-2024" },
+  { value: "2025", text: "2024-2025" },
 ];
 
 export default function Home() {
   const [selectedYear, setSelectedYear] = useState(yearOptions[0].value);
-  const [selectedPlayer, setSelectedPlayer] = useState<
-    (typeof players.players)[number] | null
-  >(null);
+  const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
 
   const playersData = useMemo(() => {
-    return players.year === selectedYear ? players.players : [];
+    const yearData = players.find((year) => year.year === selectedYear);
+    const data = yearData ? yearData.players : [];
+    return data.map((player) => ({
+      ...player,
+    }));
   }, [selectedYear]);
 
-  const handlePlayerClick = (player: (typeof players.players)[number]) => {
-    setSelectedPlayer(player);
+  const handlePlayerClick = (player: Player) => {
+    setSelectedPlayer({
+      ...player,
+    });
   };
 
   return (
@@ -68,7 +87,7 @@ export default function Home() {
                 No players found for the selected year.
               </div>
             ) : (
-              <div className="grid grid-cols-3">
+              <div className="grid grid-cols-3 gap-4">
                 {Object.entries(
                   playersData.reduce((acc, player) => {
                     if (!acc[player.team]) {
@@ -76,11 +95,11 @@ export default function Home() {
                     }
                     acc[player.team].push(player);
                     return acc;
-                  }, {} as Record<string, (typeof playersData)[number][]>)
+                  }, {} as Record<string, Player[]>)
                 ).map(([team, teamPlayers]) => (
-                  <div key={team} className="p-4 rounded-lg">
+                  <div key={team} className="p-4 rounded-lg bg-white shadow-md">
                     <h3 className="font-semibold text-lg mb-2">{team}</h3>
-                    <div className="space-y-2">
+                    <div className="space-y-2 h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 pr-2">
                       {teamPlayers.map((player) => (
                         <div
                           key={player.name}
@@ -93,7 +112,7 @@ export default function Home() {
                         >
                           {player.name}
                           <div className="text-gray-500 text-xs">
-                            {player.city}, {player.country}
+                            {player.display_location}
                           </div>
                         </div>
                       ))}
@@ -138,10 +157,12 @@ export default function Home() {
                   <div className="text-sm text-gray-500">Rating</div>
                   <div>{selectedPlayer.rating}</div>
                 </div>
-                <div className="space-y-1">
-                  <div className="text-sm text-gray-500">Position</div>
-                  <div>{selectedPlayer.team_position}</div>
-                </div>
+                {selectedPlayer.team_position && (
+                  <div className="space-y-1">
+                    <div className="text-sm text-gray-500">Position</div>
+                    <div>{selectedPlayer.team_position}</div>
+                  </div>
+                )}
                 <div className="space-y-1">
                   <div className="text-sm text-gray-500">Season Record</div>
                   <div>{selectedPlayer.record}</div>
