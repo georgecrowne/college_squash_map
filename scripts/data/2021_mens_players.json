@@ -9,7 +9,7 @@
             "display_location": "New Haven, United States",
             "record": "0-0",
             "team_position": 1,
-            "rating": 5.89,
+            "rating": 5.88,
             "lat": 41.3082138,
             "lng": -72.9250518
         },
@@ -21,9 +21,9 @@
             "display_location": "Radnor, United States",
             "record": "0-0",
             "team_position": 2,
-            "rating": 5.91,
-            "lat": 40.0448619,
-            "lng": -75.3594728
+            "rating": 5.92,
+            "lat": 40.0463001,
+            "lng": -75.3595487
         },
         {
             "name": "Lichtmacher, Adam W.",
@@ -81,7 +81,7 @@
             "display_location": "Brooklyn, United States",
             "record": "0-0",
             "team_position": 7,
-            "rating": 5.86,
+            "rating": 5.83,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -117,7 +117,7 @@
             "display_location": "Brooklyn, United States",
             "record": "0-0",
             "team_position": 10,
-            "rating": 5.44,
+            "rating": 5.43,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -141,7 +141,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 12,
-            "rating": 5.0,
+            "rating": 5.01,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -153,7 +153,7 @@
             "display_location": "Washington, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.29,
+            "rating": 5.3,
             "lat": 38.8950368,
             "lng": -77.0365427
         },
@@ -177,7 +177,7 @@
             "display_location": "Hinsdale, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.71,
+            "rating": 4.72,
             "lat": 37.813681,
             "lng": -107.3304179
         },
@@ -201,7 +201,7 @@
             "display_location": "North Andover, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.8,
+            "rating": 4.83,
             "lat": 42.6839894,
             "lng": -71.1127065
         },
@@ -262,8 +262,8 @@
             "record": "0-0",
             "team_position": 4,
             "rating": 4.84,
-            "lat": 42.451302,
-            "lng": -73.260018
+            "lat": 42.4484778,
+            "lng": -73.2541069
         },
         {
             "name": "Roscoe, Lukas",
@@ -285,7 +285,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 6,
-            "rating": 4.41,
+            "rating": 4.4,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -369,7 +369,7 @@
             "display_location": "Redmond, United States",
             "record": "0-0",
             "team_position": 2,
-            "rating": 5.84,
+            "rating": 5.85,
             "lat": 47.6694141,
             "lng": -122.1238767
         },
@@ -406,8 +406,8 @@
             "record": "0-0",
             "team_position": 5,
             "rating": 5.83,
-            "lat": 35.9890619,
-            "lng": -78.89378824711389
+            "lat": 40.6797401,
+            "lng": -73.941362
         },
         {
             "name": "Rothenberg, Garon G.",
@@ -417,7 +417,7 @@
             "display_location": "Brooklyn, United States",
             "record": "0-0",
             "team_position": 6,
-            "rating": 6.14,
+            "rating": 6.13,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -441,7 +441,7 @@
             "display_location": "Seattle, United States",
             "record": "0-0",
             "team_position": 8,
-            "rating": 5.85,
+            "rating": 5.87,
             "lat": 47.6038321,
             "lng": -122.330062
         },
@@ -489,7 +489,7 @@
             "display_location": "Jaipur, India",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.53,
+            "rating": 5.54,
             "lat": 26.9154576,
             "lng": 75.8189817
         },
@@ -502,8 +502,8 @@
             "record": "0-0",
             "team_position": 1,
             "rating": 5.11,
-            "lat": 42.3667625,
-            "lng": -71.3031132
+            "lat": 26.1003392,
+            "lng": -80.399513
         },
         {
             "name": "Ashmore, Ryan W.",
@@ -561,7 +561,7 @@
             "display_location": "Berwyn, United States",
             "record": "0-0",
             "team_position": 6,
-            "rating": 4.52,
+            "rating": 4.53,
             "lat": 41.8505874,
             "lng": -87.7936685
         },
@@ -574,8 +574,8 @@
             "record": "0-0",
             "team_position": 8,
             "rating": 1.5,
-            "lat": 43.0413038,
-            "lng": -73.9059394
+            "lat": 43.079524959933316,
+            "lng": -73.77871545307079
         },
         {
             "name": "Sayegh, Edmond",
@@ -597,7 +597,7 @@
             "display_location": "Bronxville, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.05,
+            "rating": 4.06,
             "lat": 40.9381544,
             "lng": -73.8320784
         },
@@ -669,7 +669,7 @@
             "display_location": "White Plains, United States",
             "record": "0-0",
             "team_position": 1,
-            "rating": 5.32,
+            "rating": 5.33,
             "lat": 41.0339862,
             "lng": -73.7629097
         },
@@ -681,7 +681,7 @@
             "display_location": "Brooklyn, United States",
             "record": "0-0",
             "team_position": 2,
-            "rating": 4.85,
+            "rating": 4.83,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -729,7 +729,7 @@
             "display_location": "Rye, United States",
             "record": "0-0",
             "team_position": 6,
-            "rating": 4.47,
+            "rating": 4.49,
             "lat": 40.9808209,
             "lng": -73.684294
         },
@@ -765,7 +765,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 9,
-            "rating": 3.27,
+            "rating": 3.29,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -825,7 +825,7 @@
             "display_location": "Stroudsburg, United States",
             "record": "0-0",
             "team_position": 4,
-            "rating": 5.9,
+            "rating": 5.89,
             "lat": 40.9864261,
             "lng": -75.1946649
         },
@@ -849,7 +849,7 @@
             "display_location": "Birmingham, United States",
             "record": "0-0",
             "team_position": 6,
-            "rating": 5.88,
+            "rating": 5.86,
             "lat": 33.5206824,
             "lng": -86.8024326
         },
@@ -861,7 +861,7 @@
             "display_location": "Brooklyn, United States",
             "record": "0-0",
             "team_position": 7,
-            "rating": 5.58,
+            "rating": 5.57,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -885,7 +885,7 @@
             "display_location": "Swampscott, United States",
             "record": "0-0",
             "team_position": 9,
-            "rating": 5.13,
+            "rating": 5.09,
             "lat": 42.4699241,
             "lng": -70.9171507
         },
@@ -897,7 +897,7 @@
             "display_location": "New Haven, United States",
             "record": "0-0",
             "team_position": 10,
-            "rating": 5.27,
+            "rating": 5.24,
             "lat": 41.3082138,
             "lng": -72.9250518
         },
@@ -909,7 +909,7 @@
             "display_location": "Bronxville, United States",
             "record": "0-0",
             "team_position": 11,
-            "rating": 5.12,
+            "rating": 5.08,
             "lat": 40.9381544,
             "lng": -73.8320784
         },
@@ -921,7 +921,7 @@
             "display_location": "Baltimore, United States",
             "record": "0-0",
             "team_position": 12,
-            "rating": 4.98,
+            "rating": 4.97,
             "lat": 39.2908816,
             "lng": -76.610759
         },
@@ -969,7 +969,7 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": 2,
-            "rating": 6.23,
+            "rating": 6.25,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -981,7 +981,7 @@
             "display_location": "Malvern, United States",
             "record": "0-0",
             "team_position": 3,
-            "rating": 6.02,
+            "rating": 6.0,
             "lat": 41.0024095,
             "lng": -95.5851939
         },
@@ -993,7 +993,7 @@
             "display_location": "Redmond, United States",
             "record": "0-0",
             "team_position": 4,
-            "rating": 6.07,
+            "rating": 6.08,
             "lat": 47.6694141,
             "lng": -122.1238767
         },
@@ -1005,7 +1005,7 @@
             "display_location": "Charlotte, United States",
             "record": "0-0",
             "team_position": 5,
-            "rating": 6.07,
+            "rating": 6.08,
             "lat": 35.2272086,
             "lng": -80.8430827
         },
@@ -1053,7 +1053,7 @@
             "display_location": "Somerset, United States",
             "record": "0-0",
             "team_position": 9,
-            "rating": 5.58,
+            "rating": 5.5,
             "lat": 39.9980022,
             "lng": -79.0415528
         },
@@ -1089,7 +1089,7 @@
             "display_location": "Fourqueux, France",
             "record": "0-0",
             "team_position": 12,
-            "rating": 5.35,
+            "rating": 5.34,
             "lat": 48.88620905,
             "lng": 2.056790092971905
         },
@@ -1101,9 +1101,9 @@
             "display_location": "Marion, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.57,
-            "lat": 38.6477381,
-            "lng": -88.9232112
+            "rating": 5.56,
+            "lat": 32.7931661,
+            "lng": -94.344488
         },
         {
             "name": "Champa, John Paul",
@@ -1125,7 +1125,7 @@
             "display_location": "Shaker Heights, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.42,
+            "rating": 5.41,
             "lat": 41.4739419,
             "lng": -81.5370671
         },
@@ -1137,7 +1137,7 @@
             "display_location": "Villanova, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.16,
+            "rating": 6.17,
             "lat": 40.0373323,
             "lng": -75.3490769
         },
@@ -1149,7 +1149,7 @@
             "display_location": "Bronxville, United States",
             "record": "0-0",
             "team_position": 1,
-            "rating": 5.17,
+            "rating": 4.91,
             "lat": 40.9381544,
             "lng": -73.8320784
         },
@@ -1197,7 +1197,7 @@
             "display_location": "Greenwich, United States",
             "record": "0-0",
             "team_position": 5,
-            "rating": 4.79,
+            "rating": 4.8,
             "lat": 41.0264862,
             "lng": -73.6284598
         },
@@ -1221,7 +1221,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 7,
-            "rating": 3.56,
+            "rating": 3.57,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1233,7 +1233,7 @@
             "display_location": "Newtown Square, United States",
             "record": "0-0",
             "team_position": 8,
-            "rating": 4.08,
+            "rating": 4.09,
             "lat": 39.9868117,
             "lng": -75.4007633
         },
@@ -1264,14 +1264,14 @@
         {
             "name": "Charman, Henry",
             "team": "Bucknell",
-            "city": "Wenham",
+            "city": "Boston",
             "country": "United States",
-            "display_location": "Wenham, United States",
+            "display_location": "Boston, United States",
             "record": "0-0",
             "team_position": 11,
-            "rating": 1.5,
-            "lat": 42.6046209,
-            "lng": -70.8873511
+            "rating": 5.34,
+            "lat": 42.3554334,
+            "lng": -71.060511
         },
         {
             "name": "Oliphant, Maxwell",
@@ -1293,7 +1293,7 @@
             "display_location": "Berkeley, United States",
             "record": "0-0",
             "team_position": 1,
-            "rating": 5.44,
+            "rating": 5.45,
             "lat": 37.8708393,
             "lng": -122.272863
         },
@@ -1317,7 +1317,7 @@
             "display_location": "Santa Barbara, United States",
             "record": "0-0",
             "team_position": 3,
-            "rating": 4.83,
+            "rating": 4.85,
             "lat": 34.4221319,
             "lng": -119.702667
         },
@@ -1341,7 +1341,7 @@
             "display_location": "Saratoga, United States",
             "record": "0-0",
             "team_position": 5,
-            "rating": 5.12,
+            "rating": 5.16,
             "lat": 43.0833231,
             "lng": -73.8712155
         },
@@ -1389,7 +1389,7 @@
             "display_location": "Saratoga, United States",
             "record": "0-0",
             "team_position": 9,
-            "rating": 4.66,
+            "rating": 4.64,
             "lat": 43.0833231,
             "lng": -73.8712155
         },
@@ -1401,7 +1401,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 10,
-            "rating": 4.1,
+            "rating": 4.12,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1461,7 +1461,7 @@
             "display_location": "San Diego, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.09,
+            "rating": 4.1,
             "lat": 32.7174202,
             "lng": -117.162772
         },
@@ -1509,7 +1509,7 @@
             "display_location": "Lake Forest, United States",
             "record": "0-0",
             "team_position": 1,
-            "rating": 4.99,
+            "rating": 4.97,
             "lat": 42.2586461,
             "lng": -87.8407055
         },
@@ -1533,7 +1533,7 @@
             "display_location": "Trumbull, United States",
             "record": "0-0",
             "team_position": 3,
-            "rating": 4.15,
+            "rating": 4.11,
             "lat": 41.2428742,
             "lng": -73.2006687
         },
@@ -1545,9 +1545,9 @@
             "display_location": "Stanford, United States",
             "record": "0-0",
             "team_position": 4,
-            "rating": 4.03,
-            "lat": 37.426540700000004,
-            "lng": -122.17030545534064
+            "rating": 4.05,
+            "lat": 37.427467,
+            "lng": -122.1702445
         },
         {
             "name": "Meyers, Jacob",
@@ -1581,7 +1581,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 7,
-            "rating": 4.41,
+            "rating": 4.42,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1593,7 +1593,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 8,
-            "rating": 3.56,
+            "rating": 3.59,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1605,7 +1605,7 @@
             "display_location": "Malvern, United States",
             "record": "0-0",
             "team_position": 8,
-            "rating": 2.65,
+            "rating": 2.69,
             "lat": 41.0024095,
             "lng": -95.5851939
         },
@@ -1689,7 +1689,7 @@
             "display_location": "Cairo, Egypt",
             "record": "0-0",
             "team_position": 3,
-            "rating": 5.81,
+            "rating": 5.82,
             "lat": 30.0443879,
             "lng": 31.2357257
         },
@@ -1713,7 +1713,7 @@
             "display_location": "Brasilia, Brazil",
             "record": "0-0",
             "team_position": 5,
-            "rating": 5.32,
+            "rating": 5.31,
             "lat": -10.3333333,
             "lng": -53.2
         },
@@ -1725,7 +1725,7 @@
             "display_location": "Philadelphia, United States",
             "record": "0-0",
             "team_position": 6,
-            "rating": 5.41,
+            "rating": 5.38,
             "lat": 39.9527237,
             "lng": -75.1635262
         },
@@ -1737,7 +1737,7 @@
             "display_location": "Rockville, Argentina",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.81,
+            "rating": 4.8,
             "lat": -34.9964963,
             "lng": -64.9672817
         },
@@ -1761,7 +1761,7 @@
             "display_location": "San Luis Potosi, Mexico",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.09,
+            "rating": 5.05,
             "lat": 22.5000001,
             "lng": -100.4949145
         },
@@ -1785,7 +1785,7 @@
             "display_location": "Cos Cob, United States",
             "record": "0-0",
             "team_position": 1,
-            "rating": 4.83,
+            "rating": 4.85,
             "lat": 41.0334305,
             "lng": -73.5995698
         },
@@ -1821,7 +1821,7 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": 4,
-            "rating": 4.48,
+            "rating": 4.49,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -1833,7 +1833,7 @@
             "display_location": "Irvine, United States",
             "record": "0-0",
             "team_position": 5,
-            "rating": 4.69,
+            "rating": 4.68,
             "lat": 33.6856969,
             "lng": -117.825981
         },
@@ -1845,7 +1845,7 @@
             "display_location": "Chicago, United States",
             "record": "0-0",
             "team_position": 6,
-            "rating": 4.48,
+            "rating": 4.46,
             "lat": 41.8755616,
             "lng": -87.6244212
         },
@@ -1857,7 +1857,7 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": 7,
-            "rating": 4.53,
+            "rating": 4.54,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -1881,7 +1881,7 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": 9,
-            "rating": 4.45,
+            "rating": 4.39,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -1905,7 +1905,7 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": 11,
-            "rating": 4.45,
+            "rating": 4.44,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -1930,8 +1930,8 @@
             "record": "0-0",
             "team_position": 13,
             "rating": 1.5,
-            "lat": 42.1911969,
-            "lng": -74.9946083
+            "lat": 41.3959302,
+            "lng": -72.8968574
         },
         {
             "name": "Hantzmon, Tom T.",
@@ -1953,7 +1953,7 @@
             "display_location": "Boston, United States",
             "record": "0-0",
             "team_position": 1,
-            "rating": 3.9,
+            "rating": 3.82,
             "lat": 42.3554334,
             "lng": -71.060511
         },
@@ -1965,7 +1965,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 2,
-            "rating": 4.36,
+            "rating": 4.33,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1989,7 +1989,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 4,
-            "rating": 4.05,
+            "rating": 4.0,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -2001,7 +2001,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 5,
-            "rating": 3.34,
+            "rating": 3.29,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -2013,7 +2013,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 6,
-            "rating": 3.23,
+            "rating": 3.16,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -2025,7 +2025,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 7,
-            "rating": 2.58,
+            "rating": 2.53,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -2037,7 +2037,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 8,
-            "rating": 1.62,
+            "rating": 1.57,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -2049,7 +2049,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": 9,
-            "rating": 3.52,
+            "rating": 3.48,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -2097,7 +2097,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 2.81,
+            "rating": 2.76,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -2193,7 +2193,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 3.21,
+            "rating": 3.16,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -2205,8 +2205,8 @@
             "display_location": "Resistencia, Argentina",
             "record": "0-0",
             "team_position": 1,
-            "rating": 6.23,
-            "lat": -27.4510993,
+            "rating": 6.22,
+            "lat": -27.4511077,
             "lng": -58.9865196
         },
         {
@@ -2217,7 +2217,7 @@
             "display_location": "Toronto, Canada",
             "record": "0-0",
             "team_position": 2,
-            "rating": 6.06,
+            "rating": 6.07,
             "lat": 43.6534817,
             "lng": -79.3839347
         },
@@ -2241,7 +2241,7 @@
             "display_location": "Chestnut Hill, United States",
             "record": "0-0",
             "team_position": 4,
-            "rating": 4.69,
+            "rating": 4.66,
             "lat": 42.3306529,
             "lng": -71.1661647
         },
@@ -2265,7 +2265,7 @@
             "display_location": "Boston, United States",
             "record": "0-0",
             "team_position": 8,
-            "rating": 5.57,
+            "rating": 5.56,
             "lat": 42.3554334,
             "lng": -71.060511
         },
@@ -2277,7 +2277,7 @@
             "display_location": "Stamford, United States",
             "record": "0-0",
             "team_position": 9,
-            "rating": 5.14,
+            "rating": 5.16,
             "lat": 41.0534302,
             "lng": -73.5387341
         },
@@ -2289,7 +2289,7 @@
             "display_location": "Newtown Square, United States",
             "record": "0-0",
             "team_position": 10,
-            "rating": 5.22,
+            "rating": 5.25,
             "lat": 39.9868117,
             "lng": -75.4007633
         },
@@ -2326,8 +2326,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 1.5,
-            "lat": 42.3667625,
-            "lng": -71.3031132
+            "lat": 26.1003392,
+            "lng": -80.399513
         },
         {
             "name": "Hallowell, Rory",
@@ -2349,7 +2349,7 @@
             "display_location": "Saddle River, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.89,
+            "rating": 4.91,
             "lat": 41.0317637,
             "lng": -74.1020866
         },
@@ -2361,7 +2361,7 @@
             "display_location": "Lower Gwynedd, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.97,
+            "rating": 5.02,
             "lat": 40.187821150000005,
             "lng": -75.23631829625398
         },

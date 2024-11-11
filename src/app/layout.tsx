@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Heading } from "@/components/Heading";
+import { PlayerProvider } from "@/context/PlayerContext";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,19 +26,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-full flex-col overflow-hidden`}
-      >
-        <Heading level={1} className="p-4">
-          College Squash Map
-          <span className="block text-sm font-normal md:hidden">
-            (no map in mobile)
-          </span>
-        </Heading>
-        <hr className="w-full border-t border-gray-600" />
-        <div className="p-4 h-full">{children}</div>
-      </body>
-    </html>
+    <PlayerProvider>
+      <html lang="en" className="h-full">
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased flex h-full flex-col overflow-hidden`}
+        >
+          <Heading level={1} className="p-4">
+            College Squash Map
+            <span className="block text-sm font-normal md:hidden">
+              (no map in mobile)
+            </span>
+          </Heading>
+          <hr className="w-full border-t border-gray-600" />
+          <div className="p-4 flex-1 overflow-auto">{children}</div>
+        </body>
+      </html>
+    </PlayerProvider>
   );
 }

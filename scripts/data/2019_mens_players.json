@@ -9,7 +9,7 @@
             "display_location": "France",
             "record": "10-3",
             "team_position": 1,
-            "rating": 7.58,
+            "rating": 7.59,
             "lat": 46.603354,
             "lng": 1.8883335
         },
@@ -33,7 +33,7 @@
             "display_location": "Belmont, United States",
             "record": "12-1",
             "team_position": 3,
-            "rating": 7.35,
+            "rating": 7.36,
             "lat": 40.0057737,
             "lng": -81.0097516
         },
@@ -45,7 +45,7 @@
             "display_location": "South Orange, United States",
             "record": "15-0",
             "team_position": 4,
-            "rating": 6.55,
+            "rating": 6.56,
             "lat": 40.7474966,
             "lng": -74.2635376
         },
@@ -93,7 +93,7 @@
             "display_location": "Boston, United States",
             "record": "14-1",
             "team_position": 8,
-            "rating": 6.69,
+            "rating": 6.7,
             "lat": 42.3554334,
             "lng": -71.060511
         },
@@ -117,7 +117,7 @@
             "display_location": "Toronto, Canada",
             "record": "12-1",
             "team_position": 10,
-            "rating": 6.22,
+            "rating": 6.23,
             "lat": 43.6534817,
             "lng": -79.3839347
         },
@@ -142,8 +142,8 @@
             "record": "2-2",
             "team_position": null,
             "rating": 1.5,
-            "lat": 42.3370414,
-            "lng": -71.2092214
+            "lat": 30.8118989,
+            "lng": -93.740504
         },
         {
             "name": "Monrad, Stephen",
@@ -154,8 +154,8 @@
             "record": "1-0",
             "team_position": null,
             "rating": 1.5,
-            "lat": 42.3370414,
-            "lng": -71.2092214
+            "lat": 30.8118989,
+            "lng": -93.740504
         },
         {
             "name": "Ong, John Finley",
@@ -165,7 +165,7 @@
             "display_location": "Norwalk, United States",
             "record": "2-2",
             "team_position": null,
-            "rating": 5.67,
+            "rating": 5.69,
             "lat": 41.1175966,
             "lng": -73.4078968
         },
@@ -237,7 +237,7 @@
             "display_location": "Boston, United States",
             "record": "13-4",
             "team_position": 4,
-            "rating": 6.49,
+            "rating": 6.5,
             "lat": 42.3554334,
             "lng": -71.060511
         },
@@ -249,7 +249,7 @@
             "display_location": "Alexandria, United States",
             "record": "11-7",
             "team_position": 5,
-            "rating": 6.72,
+            "rating": 6.73,
             "lat": 38.8051095,
             "lng": -77.0470229
         },
@@ -262,8 +262,8 @@
             "record": "11-8",
             "team_position": 6,
             "rating": 1.5,
-            "lat": 36.3537169,
-            "lng": -94.313335
+            "lat": 28.303957099999998,
+            "lng": -81.64215555
         },
         {
             "name": "Lee, Andrew",
@@ -286,8 +286,8 @@
             "record": "11-8",
             "team_position": 8,
             "rating": 6.4,
-            "lat": 0.0,
-            "lng": 0.0
+            "lat": -24.7761086,
+            "lng": 134.755
         },
         {
             "name": "Patrick, Nku",
@@ -310,8 +310,8 @@
             "record": "10-1",
             "team_position": 10,
             "rating": 1.5,
-            "lat": 41.7764939,
-            "lng": -72.6063209
+            "lat": 41.77650117937696,
+            "lng": -72.60632233027513
         },
         {
             "name": "Pant, Mudit",
@@ -489,7 +489,7 @@
             "display_location": "Granite Bay, Colombia",
             "record": "5-1",
             "team_position": null,
-            "rating": 6.2,
+            "rating": 6.17,
             "lat": 50.2380853,
             "lng": -125.3118342
         },
@@ -537,7 +537,7 @@
             "display_location": "Greenwich, United States",
             "record": "10-7",
             "team_position": 3,
-            "rating": 6.45,
+            "rating": 6.47,
             "lat": 41.0264862,
             "lng": -73.6284598
         },
@@ -549,7 +549,7 @@
             "display_location": "Toronto, Canada",
             "record": "13-4",
             "team_position": 4,
-            "rating": 6.99,
+            "rating": 7.0,
             "lat": 43.6534817,
             "lng": -79.3839347
         },
@@ -585,7 +585,7 @@
             "display_location": "Philadelphia, United States",
             "record": "11-5",
             "team_position": 7,
-            "rating": 6.6,
+            "rating": 6.57,
             "lat": 39.9527237,
             "lng": -75.1635262
         },
@@ -597,7 +597,7 @@
             "display_location": "Princeton, United States",
             "record": "12-6",
             "team_position": 8,
-            "rating": 6.49,
+            "rating": 6.5,
             "lat": 40.3496953,
             "lng": -74.6597376
         },
@@ -610,8 +610,8 @@
             "record": "12-3",
             "team_position": 9,
             "rating": 1.5,
-            "lat": 36.3901694,
-            "lng": -78.1052123
+            "lat": 41.8119602,
+            "lng": -79.2654452
         },
         {
             "name": "Reed, Max D",
@@ -657,7 +657,7 @@
             "display_location": "Ardmore, United States",
             "record": "1-0",
             "team_position": null,
-            "rating": 5.84,
+            "rating": 5.85,
             "lat": 34.1729273,
             "lng": -97.1309119
         },
@@ -705,7 +705,7 @@
             "display_location": "Greenwich, United States",
             "record": "10-8",
             "team_position": 2,
-            "rating": 6.61,
+            "rating": 6.62,
             "lat": 41.0264862,
             "lng": -73.6284598
         },
@@ -741,7 +741,7 @@
             "display_location": "New York City, United States",
             "record": "11-6",
             "team_position": 5,
-            "rating": 6.35,
+            "rating": 6.36,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -765,7 +765,7 @@
             "display_location": "Corte Madera, Mexico",
             "record": "12-6",
             "team_position": 7,
-            "rating": 6.7,
+            "rating": 6.71,
             "lat": 32.1128587,
             "lng": -116.1306382
         },
@@ -778,8 +778,8 @@
             "record": "17-1",
             "team_position": 8,
             "rating": 1.5,
-            "lat": 33.9070758,
-            "lng": -117.9918847
+            "lat": 33.90699092019625,
+            "lng": -117.9919341485633
         },
         {
             "name": "Martin, Sergio",
@@ -813,7 +813,7 @@
             "display_location": "Thane, United States",
             "record": "5-0",
             "team_position": 11,
-            "rating": 5.72,
+            "rating": 5.71,
             "lat": 58.2580495,
             "lng": -134.31844
         },
@@ -885,7 +885,7 @@
             "display_location": "Brooklyn, United States",
             "record": "11-7",
             "team_position": 4,
-            "rating": 5.7,
+            "rating": 5.69,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -921,7 +921,7 @@
             "display_location": "Phoenixville, United States",
             "record": "15-3",
             "team_position": 7,
-            "rating": 6.64,
+            "rating": 6.65,
             "lat": 40.1303822,
             "lng": -75.5149128
         },
@@ -933,9 +933,9 @@
             "display_location": "Radnor, United States",
             "record": "12-6",
             "team_position": 8,
-            "rating": 5.74,
-            "lat": 40.0448619,
-            "lng": -75.3594728
+            "rating": 6.0,
+            "lat": 40.0463001,
+            "lng": -75.3595487
         },
         {
             "name": "PANDOLE, YOHAN",
@@ -945,7 +945,7 @@
             "display_location": "New York, United States",
             "record": "11-7",
             "team_position": 9,
-            "rating": 5.72,
+            "rating": 5.64,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -1017,7 +1017,7 @@
             "display_location": "United States",
             "record": "13-3",
             "team_position": 1,
-            "rating": 6.87,
+            "rating": 6.86,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1089,7 +1089,7 @@
             "display_location": "New York, United States",
             "record": "7-6",
             "team_position": 7,
-            "rating": 6.17,
+            "rating": 6.18,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -1125,7 +1125,7 @@
             "display_location": "San Francisco, United States",
             "record": "4-4",
             "team_position": 10,
-            "rating": 6.23,
+            "rating": 6.24,
             "lat": 37.7792588,
             "lng": -122.4193286
         },
@@ -1161,7 +1161,7 @@
             "display_location": "Atlanta, United States",
             "record": "0-0",
             "team_position": 13,
-            "rating": 5.42,
+            "rating": 5.44,
             "lat": 33.7489924,
             "lng": -84.3902644
         },
@@ -1173,9 +1173,9 @@
             "display_location": "Avon, United States",
             "record": "0-0",
             "team_position": 14,
-            "rating": 5.55,
-            "lat": 40.6642065,
-            "lng": -90.4348506
+            "rating": 5.56,
+            "lat": 45.6091313,
+            "lng": -94.4516668
         },
         {
             "name": "Awalt, Mac R.",
@@ -1210,8 +1210,8 @@
             "record": "10-7",
             "team_position": 2,
             "rating": 6.08,
-            "lat": 40.0853435,
-            "lng": -75.19402070907555
+            "lat": 40.0812219,
+            "lng": -75.1893436
         },
         {
             "name": "Epley, Samuel C.",
@@ -1257,7 +1257,7 @@
             "display_location": "Brookline, United States",
             "record": "6-6",
             "team_position": 6,
-            "rating": 5.79,
+            "rating": 5.78,
             "lat": 42.3329021,
             "lng": -71.1187421
         },
@@ -1281,7 +1281,7 @@
             "display_location": "Harrison, United States",
             "record": "10-7",
             "team_position": 8,
-            "rating": 5.94,
+            "rating": 5.95,
             "lat": 32.5233959,
             "lng": -94.3982158
         },
@@ -1329,7 +1329,7 @@
             "display_location": "Buffalo, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.74,
+            "rating": 5.75,
             "lat": 42.8867166,
             "lng": -78.8783922
         },
@@ -1341,9 +1341,9 @@
             "display_location": "Princeton Junction, United States",
             "record": "4-2",
             "team_position": null,
-            "rating": 5.29,
-            "lat": 40.3173301,
-            "lng": -74.6198791
+            "rating": 5.3,
+            "lat": 40.3159898,
+            "lng": -74.6241189
         },
         {
             "name": "Quayle, Zachary F.",
@@ -1377,7 +1377,7 @@
             "display_location": "Boston, United States",
             "record": "6-10",
             "team_position": 1,
-            "rating": 6.84,
+            "rating": 6.85,
             "lat": 42.3554334,
             "lng": -71.060511
         },
@@ -1413,9 +1413,9 @@
             "display_location": "London, United Kingdom",
             "record": "9-7",
             "team_position": 4,
-            "rating": 6.06,
-            "lat": 51.5074456,
-            "lng": -0.1277653
+            "rating": 6.05,
+            "lat": 51.4893335,
+            "lng": -0.14405508452768728
         },
         {
             "name": "Morgan, Gabriel",
@@ -1449,7 +1449,7 @@
             "display_location": "Haverford, United States",
             "record": "4-6",
             "team_position": 7,
-            "rating": 6.31,
+            "rating": 6.3,
             "lat": 40.0131672,
             "lng": -75.2943516
         },
@@ -1461,7 +1461,7 @@
             "display_location": "New York, United States",
             "record": "8-8",
             "team_position": 8,
-            "rating": 5.72,
+            "rating": 5.73,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -1498,8 +1498,8 @@
             "record": "0-2",
             "team_position": 11,
             "rating": 1.5,
-            "lat": 1.357107,
-            "lng": 103.8194992
+            "lat": 1.2899175,
+            "lng": 103.8519072
         },
         {
             "name": "Becker, Cole",
@@ -1509,7 +1509,7 @@
             "display_location": "San Mateo, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.75,
+            "rating": 6.76,
             "lat": 37.496904,
             "lng": -122.3330573
         },
@@ -1533,7 +1533,7 @@
             "display_location": "United States",
             "record": "5-6",
             "team_position": null,
-            "rating": 5.9,
+            "rating": 5.91,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1678,8 +1678,8 @@
             "record": "11-14",
             "team_position": 9,
             "rating": 1.5,
-            "lat": 40.0853435,
-            "lng": -75.19402070907555
+            "lat": 40.0812219,
+            "lng": -75.1893436
         },
         {
             "name": "Saeed, Abbas A",
@@ -1689,7 +1689,7 @@
             "display_location": "Sherborn, United States",
             "record": "7-13",
             "team_position": 10,
-            "rating": 5.83,
+            "rating": 5.84,
             "lat": 42.2397842,
             "lng": -71.3701417
         },
@@ -1701,7 +1701,7 @@
             "display_location": "United States",
             "record": "9-6",
             "team_position": 11,
-            "rating": 5.23,
+            "rating": 5.21,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1761,7 +1761,7 @@
             "display_location": "Bethlehem, United States",
             "record": "10-6",
             "team_position": 3,
-            "rating": 6.44,
+            "rating": 6.45,
             "lat": 40.6178915,
             "lng": -75.3786521
         },
@@ -1797,7 +1797,7 @@
             "display_location": "Calgary, Canada",
             "record": "7-9",
             "team_position": 6,
-            "rating": 6.39,
+            "rating": 6.4,
             "lat": 51.0456064,
             "lng": -114.057541
         },
@@ -1810,8 +1810,8 @@
             "record": "3-14",
             "team_position": 7,
             "rating": 1.5,
-            "lat": 1.357107,
-            "lng": 103.8194992
+            "lat": 1.2899175,
+            "lng": 103.8519072
         },
         {
             "name": "Chan, Nathaniel",
@@ -1834,8 +1834,8 @@
             "record": "3-6",
             "team_position": 9,
             "rating": 5.5,
-            "lat": 34.5623077,
-            "lng": -85.8124715
+            "lat": 32.7504441,
+            "lng": -81.636776
         },
         {
             "name": "Grady, William",
@@ -1857,7 +1857,7 @@
             "display_location": "Mumbaai, United States",
             "record": "2-8",
             "team_position": 11,
-            "rating": 5.96,
+            "rating": 5.97,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1869,7 +1869,7 @@
             "display_location": "Malvern, United States",
             "record": "3-6",
             "team_position": null,
-            "rating": 6.14,
+            "rating": 6.12,
             "lat": 41.0024095,
             "lng": -95.5851939
         },
@@ -1905,7 +1905,7 @@
             "display_location": "South Africa",
             "record": "0-2",
             "team_position": null,
-            "rating": 5.76,
+            "rating": 5.79,
             "lat": -28.8166236,
             "lng": 24.991639
         },
@@ -1929,7 +1929,7 @@
             "display_location": "Philadelphia, United States",
             "record": "10-4",
             "team_position": 2,
-            "rating": 6.52,
+            "rating": 6.5,
             "lat": 39.9527237,
             "lng": -75.1635262
         },
@@ -2014,8 +2014,8 @@
             "record": "3-11",
             "team_position": 9,
             "rating": 1.5,
-            "lat": 32.555664,
-            "lng": -95.8640507
+            "lat": 40.7985464,
+            "lng": -81.3749508
         },
         {
             "name": "Warren, Cameron",
@@ -2025,7 +2025,7 @@
             "display_location": "Chicago, United States",
             "record": "3-9",
             "team_position": 10,
-            "rating": 4.94,
+            "rating": 4.93,
             "lat": 41.8755616,
             "lng": -87.6244212
         },
@@ -2050,8 +2050,8 @@
             "record": "3-2",
             "team_position": null,
             "rating": 1.5,
-            "lat": 42.3147529,
-            "lng": -88.4474302
+            "lat": 42.0410578,
+            "lng": -74.1182492
         },
         {
             "name": "MacColl, Matthew",
@@ -2085,7 +2085,7 @@
             "display_location": "New Haven, United States",
             "record": "2-2",
             "team_position": null,
-            "rating": 4.5,
+            "rating": 4.51,
             "lat": 41.3082138,
             "lng": -72.9250518
         },
@@ -2206,8 +2206,8 @@
             "record": "12-5",
             "team_position": 10,
             "rating": 1.5,
-            "lat": 42.3667625,
-            "lng": -71.3031132
+            "lat": 26.1003392,
+            "lng": -80.399513
         },
         {
             "name": "Dudzik, James G",
@@ -2229,7 +2229,7 @@
             "display_location": "New Canaan, United States",
             "record": "5-2",
             "team_position": 12,
-            "rating": 5.89,
+            "rating": 5.9,
             "lat": 41.146763,
             "lng": -73.4948446
         },
@@ -2289,7 +2289,7 @@
             "display_location": "Brooklyn, United States",
             "record": "9-9",
             "team_position": 2,
-            "rating": 6.48,
+            "rating": 6.51,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -2361,9 +2361,9 @@
             "display_location": "Mumbai, United States",
             "record": "9-5",
             "team_position": 8,
-            "rating": 5.98,
-            "lat": 36.3537169,
-            "lng": -94.313335
+            "rating": 6.0,
+            "lat": 28.303957099999998,
+            "lng": -81.64215555
         },
         {
             "name": "Iyer, Nikhil A.",
@@ -2385,7 +2385,7 @@
             "display_location": "Tenafly, United States",
             "record": "8-4",
             "team_position": 10,
-            "rating": 3.93,
+            "rating": 3.94,
             "lat": 40.9253766,
             "lng": -73.9629154
         },
@@ -2421,7 +2421,7 @@
             "display_location": "Jersey City, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.24,
+            "rating": 5.22,
             "lat": 40.7215682,
             "lng": -74.047455
         },
@@ -2445,7 +2445,7 @@
             "display_location": "Locust Valley, United States",
             "record": "0-1",
             "team_position": null,
-            "rating": 5.41,
+            "rating": 5.5,
             "lat": 40.8757712,
             "lng": -73.5971927
         },
@@ -2457,7 +2457,7 @@
             "display_location": "Louisville, United States",
             "record": "0-1",
             "team_position": null,
-            "rating": 5.57,
+            "rating": 5.6,
             "lat": 38.2542376,
             "lng": -85.759407
         },

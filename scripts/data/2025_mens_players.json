@@ -9,7 +9,7 @@
             "display_location": "Egypt",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.89,
+            "rating": 6.86,
             "lat": 26.2540493,
             "lng": 29.2675469
         },
@@ -21,7 +21,7 @@
             "display_location": "Alexandria, Egypt",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.53,
+            "rating": 6.54,
             "lat": 31.1991806,
             "lng": 29.8951716
         },
@@ -33,7 +33,7 @@
             "display_location": "Fremont, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.69,
+            "rating": 6.67,
             "lat": 37.5482697,
             "lng": -121.988571
         },
@@ -45,7 +45,7 @@
             "display_location": "Baltimore, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.36,
+            "rating": 6.39,
             "lat": 39.2908816,
             "lng": -76.610759
         },
@@ -69,7 +69,7 @@
             "display_location": "Berwyn, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.39,
+            "rating": 6.41,
             "lat": 41.8505874,
             "lng": -87.7936685
         },
@@ -105,7 +105,7 @@
             "display_location": "Egypt",
             "record": "0-0",
             "team_position": null,
-            "rating": 7.12,
+            "rating": 7.14,
             "lat": 26.2540493,
             "lng": 29.2675469
         },
@@ -141,7 +141,7 @@
             "display_location": "Greenwich, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.99,
+            "rating": 5.98,
             "lat": 41.0264862,
             "lng": -73.6284598
         },
@@ -153,7 +153,7 @@
             "display_location": "Palo Alto, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.67,
+            "rating": 6.69,
             "lat": 37.4443293,
             "lng": -122.1598465
         },
@@ -165,7 +165,7 @@
             "display_location": "Stirling, Scotland",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.46,
+            "rating": 6.4,
             "lat": 56.1181242,
             "lng": -3.9360012
         },
@@ -189,9 +189,9 @@
             "display_location": "Hong Kong",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.28,
-            "lat": 22.350627,
-            "lng": 114.1849161
+            "rating": 6.3,
+            "lat": 22.2793278,
+            "lng": 114.1628131
         },
         {
             "name": "Wiser, Rustin D",
@@ -213,7 +213,7 @@
             "display_location": "New Canaan, United States",
             "record": "0-0",
             "team_position": 1,
-            "rating": 6.88,
+            "rating": 6.89,
             "lat": 41.146763,
             "lng": -73.4948446
         },
@@ -261,7 +261,7 @@
             "display_location": "Ashburn, United States",
             "record": "0-0",
             "team_position": 5,
-            "rating": 6.69,
+            "rating": 6.7,
             "lat": 39.030019100000004,
             "lng": -77.46964646557657
         },
@@ -273,7 +273,7 @@
             "display_location": "Cambridge, United States",
             "record": "0-0",
             "team_position": 6,
-            "rating": 6.66,
+            "rating": 6.68,
             "lat": 42.3656347,
             "lng": -71.1040018
         },
@@ -285,7 +285,7 @@
             "display_location": "Berwyn, United States",
             "record": "0-0",
             "team_position": 7,
-            "rating": 6.67,
+            "rating": 6.66,
             "lat": 41.8505874,
             "lng": -87.7936685
         },
@@ -297,7 +297,7 @@
             "display_location": "England",
             "record": "0-0",
             "team_position": 8,
-            "rating": 6.31,
+            "rating": 6.29,
             "lat": 52.5310214,
             "lng": -1.2649062
         },
@@ -309,9 +309,9 @@
             "display_location": "Wyndmoor, United States",
             "record": "0-0",
             "team_position": 9,
-            "rating": 6.43,
-            "lat": 40.0853435,
-            "lng": -75.19402070907555
+            "rating": 6.46,
+            "lat": 40.0812219,
+            "lng": -75.1893436
         },
         {
             "name": "Eun, Bennett",
@@ -321,7 +321,7 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": 10,
-            "rating": 6.28,
+            "rating": 6.26,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -345,21 +345,9 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": 12,
-            "rating": 5.91,
+            "rating": 5.94,
             "lat": 40.7127281,
             "lng": -74.0060152
-        },
-        {
-            "name": "Clayton, Taylor B.",
-            "team": "Yale",
-            "city": "Greenwich",
-            "country": "United States",
-            "display_location": "Greenwich, United States",
-            "record": "0-0",
-            "team_position": 13,
-            "rating": 6.05,
-            "lat": 41.0264862,
-            "lng": -73.6284598
         },
         {
             "name": "Mehta, Shreyas N",
@@ -368,10 +356,22 @@
             "country": "India",
             "display_location": "Mumbai, India",
             "record": "0-0",
+            "team_position": 13,
+            "rating": 5.91,
+            "lat": 19.054999,
+            "lng": 72.8692035
+        },
+        {
+            "name": "Clayton, Taylor B.",
+            "team": "Yale",
+            "city": "Greenwich",
+            "country": "United States",
+            "display_location": "Greenwich, United States",
+            "record": "0-0",
             "team_position": 14,
-            "rating": 6.02,
-            "lat": 18.9733536,
-            "lng": 72.82810491917377
+            "rating": 5.97,
+            "lat": 41.0264862,
+            "lng": -73.6284598
         },
         {
             "name": "Agarwal, Avi",
@@ -381,7 +381,7 @@
             "display_location": "Monroe Township, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.61,
+            "rating": 6.6,
             "lat": 43.690677199999996,
             "lng": -85.74073206987296
         },
@@ -405,7 +405,7 @@
             "display_location": "Riverside, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.47,
+            "rating": 6.48,
             "lat": 33.9824949,
             "lng": -117.374238
         },
@@ -417,7 +417,7 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.09,
+            "rating": 5.1,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -429,7 +429,7 @@
             "display_location": "Haverford, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.56,
+            "rating": 6.57,
             "lat": 40.0131672,
             "lng": -75.2943516
         },
@@ -441,7 +441,7 @@
             "display_location": "Egypt",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.48,
+            "rating": 6.5,
             "lat": 26.2540493,
             "lng": 29.2675469
         },
@@ -453,7 +453,7 @@
             "display_location": "Solihull, England",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.5,
+            "rating": 6.51,
             "lat": 52.4130189,
             "lng": -1.7768935
         },
@@ -477,7 +477,7 @@
             "display_location": "Lake Oswego, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.63,
+            "rating": 6.64,
             "lat": 45.4206749,
             "lng": -122.670649
         },
@@ -501,7 +501,7 @@
             "display_location": "Brooklyn, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.72,
+            "rating": 6.73,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -513,7 +513,7 @@
             "display_location": "Gladwyne, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.88,
+            "rating": 5.89,
             "lat": 40.0397304,
             "lng": -75.2791788
         },
@@ -549,9 +549,9 @@
             "display_location": "Mumbai, India",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.39,
-            "lat": 18.9733536,
-            "lng": 72.82810491917377
+            "rating": 6.4,
+            "lat": 19.054999,
+            "lng": 72.8692035
         },
         {
             "name": "Wael, Ahmed",
@@ -561,7 +561,7 @@
             "display_location": "Cairo, Egypt",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.54,
+            "rating": 6.55,
             "lat": 30.0443879,
             "lng": 31.2357257
         },
@@ -573,7 +573,7 @@
             "display_location": "Jaipur, India",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.18,
+            "rating": 6.19,
             "lat": 26.9154576,
             "lng": 75.8189817
         },
@@ -597,7 +597,7 @@
             "display_location": "Dedham, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.43,
+            "rating": 5.46,
             "lat": 42.2489143,
             "lng": -71.1755732
         },
@@ -609,7 +609,7 @@
             "display_location": "Brooklyn, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.77,
+            "rating": 5.78,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -657,7 +657,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.51,
+            "rating": 6.52,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -669,7 +669,7 @@
             "display_location": "Bedford, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.79,
+            "rating": 4.81,
             "lat": 40.0271453,
             "lng": -78.5237447
         },
@@ -681,7 +681,7 @@
             "display_location": "Lake Bluff, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.01,
+            "rating": 5.03,
             "lat": 42.2789117,
             "lng": -87.8342362
         },
@@ -717,7 +717,7 @@
             "display_location": "Greenwich, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.5,
+            "rating": 4.52,
             "lat": 41.0264862,
             "lng": -73.6284598
         },
@@ -729,9 +729,9 @@
             "display_location": "Wayne, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.78,
-            "lat": 42.2682408,
-            "lng": -83.2844172
+            "rating": 5.79,
+            "lat": 41.6264414,
+            "lng": -75.3045103
         },
         {
             "name": "Restrepo, Mateo",
@@ -742,8 +742,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 6.46,
-            "lat": 6.2527703500000005,
-            "lng": -75.57397479794734
+            "lat": 6.2569632,
+            "lng": -75.5832048
         },
         {
             "name": "Roberts, W. Graham",
@@ -753,7 +753,7 @@
             "display_location": "Atlanta, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.6,
+            "rating": 5.61,
             "lat": 33.7489924,
             "lng": -84.3902644
         },
@@ -765,7 +765,7 @@
             "display_location": "Ukraine",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.43,
+            "rating": 6.44,
             "lat": 49.4871968,
             "lng": 31.2718321
         },
@@ -778,8 +778,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 6.39,
-            "lat": 47.48138955,
-            "lng": 19.14609412691246
+            "lat": 47.4978789,
+            "lng": 19.0402383
         },
         {
             "name": "Takacs, Benedek",
@@ -813,7 +813,7 @@
             "display_location": "Cairo, Egypt",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.63,
+            "rating": 6.64,
             "lat": 30.0443879,
             "lng": 31.2357257
         },
@@ -825,7 +825,7 @@
             "display_location": "Cape Town, South Africa",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.49,
+            "rating": 5.53,
             "lat": -33.9288301,
             "lng": 18.4172197
         },
@@ -873,7 +873,7 @@
             "display_location": "India",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.51,
+            "rating": 6.52,
             "lat": 22.3511148,
             "lng": 78.6677428
         },
@@ -897,7 +897,7 @@
             "display_location": "Richmond, Canada",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.51,
+            "rating": 6.52,
             "lat": 49.163168,
             "lng": -123.137414
         },
@@ -922,8 +922,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 1.5,
-            "lat": 32.1860244,
-            "lng": 34.8678359
+            "lat": 32.18747965,
+            "lng": 34.86769237877073
         },
         {
             "name": "Shah, Ishant",
@@ -933,9 +933,9 @@
             "display_location": "Georgetown, Malaysia",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.39,
-            "lat": 6.1194695,
-            "lng": 100.3892994
+            "rating": 6.38,
+            "lat": 5.399907649999999,
+            "lng": 100.29911447916041
         },
         {
             "name": "Stoltz, Conner",
@@ -945,7 +945,7 @@
             "display_location": "Bronxville, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.29,
+            "rating": 6.28,
             "lat": 40.9381544,
             "lng": -73.8320784
         },
@@ -962,76 +962,28 @@
             "lng": 31.2357257
         },
         {
-            "name": "Tew, John Paul",
-            "team": "Virginia",
-            "city": "Cincinnati",
-            "country": "United States",
-            "display_location": "Cincinnati, United States",
-            "record": "0-0",
-            "team_position": 2,
-            "rating": 6.68,
-            "lat": 39.1014537,
-            "lng": -84.5124602
-        },
-        {
             "name": "Torres, Juan Jose",
             "team": "Virginia",
             "city": "Marion",
             "country": "United States",
             "display_location": "Marion, United States",
             "record": "0-0",
-            "team_position": 3,
-            "rating": 6.82,
-            "lat": 38.6477381,
-            "lng": -88.9232112
+            "team_position": 2,
+            "rating": 6.79,
+            "lat": 32.7931661,
+            "lng": -94.344488
         },
         {
-            "name": "Mishra, Krishna",
+            "name": "Tew, John Paul",
             "team": "Virginia",
-            "city": "",
-            "country": "India",
-            "display_location": "India",
-            "record": "0-0",
-            "team_position": 4,
-            "rating": 6.38,
-            "lat": 22.3511148,
-            "lng": 78.6677428
-        },
-        {
-            "name": "Nohel, Petr",
-            "team": "Virginia",
-            "city": "",
-            "country": "Czech Republic",
-            "display_location": "Czech Republic",
-            "record": "0-0",
-            "team_position": 5,
-            "rating": 6.44,
-            "lat": 49.7439047,
-            "lng": 15.3381061
-        },
-        {
-            "name": "Hajek, Francis E.",
-            "team": "Virginia",
-            "city": "Charlottesville",
+            "city": "Cincinnati",
             "country": "United States",
-            "display_location": "Charlottesville, United States",
+            "display_location": "Cincinnati, United States",
             "record": "0-0",
-            "team_position": 6,
-            "rating": 6.25,
-            "lat": 38.029306,
-            "lng": -78.4766781
-        },
-        {
-            "name": "Moran, Dylan",
-            "team": "Virginia",
-            "city": "",
-            "country": "Ireland",
-            "display_location": "Ireland",
-            "record": "0-0",
-            "team_position": 7,
-            "rating": 6.34,
-            "lat": 52.865196,
-            "lng": -7.9794599
+            "team_position": 3,
+            "rating": 6.7,
+            "lat": 39.1014537,
+            "lng": -84.5124602
         },
         {
             "name": "Velazquez, Maxwell",
@@ -1040,34 +992,34 @@
             "country": "United States",
             "display_location": "Brooklyn, United States",
             "record": "0-0",
-            "team_position": 8,
-            "rating": 6.39,
+            "team_position": 4,
+            "rating": 6.4,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
         {
-            "name": "Baldini, CJ",
+            "name": "Moran, Dylan",
             "team": "Virginia",
-            "city": "West Hartford",
-            "country": "United States",
-            "display_location": "West Hartford, United States",
+            "city": "",
+            "country": "Ireland",
+            "display_location": "Ireland",
             "record": "0-0",
-            "team_position": 9,
-            "rating": 6.27,
-            "lat": 41.7620447,
-            "lng": -72.7420399
+            "team_position": 5,
+            "rating": 6.41,
+            "lat": 52.865196,
+            "lng": -7.9794599
         },
         {
-            "name": "Harris, Ewan A",
+            "name": "Nohel, Petr",
             "team": "Virginia",
-            "city": "Boca Raton",
-            "country": "United States",
-            "display_location": "Boca Raton, United States",
+            "city": "",
+            "country": "Czech Republic",
+            "display_location": "Czech Republic",
             "record": "0-0",
-            "team_position": 10,
-            "rating": 6.45,
-            "lat": 26.3586885,
-            "lng": -80.0830984
+            "team_position": 6,
+            "rating": 6.41,
+            "lat": 49.7439047,
+            "lng": 15.3381061
         },
         {
             "name": "Rosenzweig, Nathan",
@@ -1076,10 +1028,46 @@
             "country": "United States",
             "display_location": "Silver Spring, United States",
             "record": "0-0",
-            "team_position": 11,
-            "rating": 6.37,
+            "team_position": 7,
+            "rating": 6.39,
             "lat": 38.9997621,
             "lng": -77.02403709829767
+        },
+        {
+            "name": "Hajek, Francis E.",
+            "team": "Virginia",
+            "city": "Charlottesville",
+            "country": "United States",
+            "display_location": "Charlottesville, United States",
+            "record": "0-0",
+            "team_position": 8,
+            "rating": 6.28,
+            "lat": 38.029306,
+            "lng": -78.4766781
+        },
+        {
+            "name": "Harris, Ewan A",
+            "team": "Virginia",
+            "city": "Boca Raton",
+            "country": "United States",
+            "display_location": "Boca Raton, United States",
+            "record": "0-0",
+            "team_position": 9,
+            "rating": 6.44,
+            "lat": 26.3586885,
+            "lng": -80.0830984
+        },
+        {
+            "name": "Baldini, CJ",
+            "team": "Virginia",
+            "city": "West Hartford",
+            "country": "United States",
+            "display_location": "West Hartford, United States",
+            "record": "0-0",
+            "team_position": 10,
+            "rating": 6.28,
+            "lat": 41.7620447,
+            "lng": -72.7420399
         },
         {
             "name": "Braff, Charles E",
@@ -1088,8 +1076,8 @@
             "country": "United States",
             "display_location": "West Palm Beach, United States",
             "record": "0-0",
-            "team_position": 12,
-            "rating": 6.06,
+            "team_position": 11,
+            "rating": 6.07,
             "lat": 26.715364,
             "lng": -80.0532942
         },
@@ -1100,8 +1088,8 @@
             "country": "United States",
             "display_location": "Rye, United States",
             "record": "0-0",
-            "team_position": 14,
-            "rating": 6.07,
+            "team_position": 12,
+            "rating": 6.05,
             "lat": 40.9808209,
             "lng": -73.684294
         },
@@ -1112,10 +1100,22 @@
             "country": "United States",
             "display_location": "Baltimore, United States",
             "record": "0-0",
-            "team_position": 14,
+            "team_position": 13,
             "rating": 6.14,
             "lat": 39.2908816,
             "lng": -76.610759
+        },
+        {
+            "name": "Mishra, Krishna",
+            "team": "Virginia",
+            "city": "",
+            "country": "India",
+            "display_location": "India",
+            "record": "0-0",
+            "team_position": 14,
+            "rating": 6.38,
+            "lat": 22.3511148,
+            "lng": 78.6677428
         },
         {
             "name": "Alzaatari, Hussain",
@@ -1125,7 +1125,7 @@
             "display_location": "Kuwait, Kuwait",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.97,
+            "rating": 5.98,
             "lat": 29.3796532,
             "lng": 47.9734174
         },
@@ -1149,7 +1149,7 @@
             "display_location": "Bridgetown, Barbados",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.26,
+            "rating": 6.27,
             "lat": 13.0977832,
             "lng": -59.6184184
         },
@@ -1161,7 +1161,7 @@
             "display_location": "Boca Rat\u00f3n, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.16,
+            "rating": 6.17,
             "lat": 26.3586885,
             "lng": -80.0830984
         },
@@ -1173,7 +1173,7 @@
             "display_location": "Bucharest, Romania",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.28,
+            "rating": 6.29,
             "lat": 44.4361414,
             "lng": 26.1027202
         },
@@ -1185,7 +1185,7 @@
             "display_location": "Kullavik, Sweden",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.5,
+            "rating": 6.54,
             "lat": 57.5441573,
             "lng": 11.9342205
         },
@@ -1197,7 +1197,7 @@
             "display_location": "Brooklyn, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.96,
+            "rating": 5.98,
             "lat": 40.6526006,
             "lng": -73.9497211
         },
@@ -1210,8 +1210,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 6.47,
-            "lat": 52.08701595,
-            "lng": 4.876687198673499
+            "lat": 52.0859261,
+            "lng": 4.8832939
         },
         {
             "name": "Mundra, Tavneet Singh",
@@ -1221,7 +1221,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.18,
+            "rating": 6.19,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1233,7 +1233,7 @@
             "display_location": "Dublin, Ireland",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.33,
+            "rating": 6.34,
             "lat": 53.3493795,
             "lng": -6.2605593
         },
@@ -1245,7 +1245,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.6,
+            "rating": 6.57,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1305,9 +1305,9 @@
             "display_location": "Mumbai, India",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.51,
-            "lat": 18.9733536,
-            "lng": 72.82810491917377
+            "rating": 6.49,
+            "lat": 19.054999,
+            "lng": 72.8692035
         },
         {
             "name": "Athar, Imad H",
@@ -1317,9 +1317,9 @@
             "display_location": "Avon, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.26,
-            "lat": 40.6642065,
-            "lng": -90.4348506
+            "rating": 6.27,
+            "lat": 45.6091313,
+            "lng": -94.4516668
         },
         {
             "name": "Bawa, Shaurya",
@@ -1329,9 +1329,9 @@
             "display_location": "New Delhi, India",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.61,
-            "lat": 28.6138954,
-            "lng": 77.2090057
+            "rating": 6.62,
+            "lat": 28.64308585,
+            "lng": 77.21926705734865
         },
         {
             "name": "Chandra, Arhan",
@@ -1341,7 +1341,7 @@
             "display_location": "Sugar Land, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.42,
+            "rating": 6.45,
             "lat": 29.6196787,
             "lng": -95.6349463
         },
@@ -1365,7 +1365,7 @@
             "display_location": "New Haven, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.96,
+            "rating": 6.03,
             "lat": 41.3082138,
             "lng": -72.9250518
         },
@@ -1377,7 +1377,7 @@
             "display_location": "Los Altos, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.15,
+            "rating": 6.18,
             "lat": 37.3790629,
             "lng": -122.116578
         },
@@ -1389,7 +1389,7 @@
             "display_location": "Carlisle, England",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.49,
+            "rating": 6.42,
             "lat": 54.8948478,
             "lng": -2.9362311
         },
@@ -1402,8 +1402,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 6.46,
-            "lat": 46.1591126,
-            "lng": -1.1520434
+            "lat": 46.159732,
+            "lng": -1.1515951
         },
         {
             "name": "Jung, Andrew",
@@ -1413,7 +1413,7 @@
             "display_location": "San Diego, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.78,
+            "rating": 5.82,
             "lat": 32.7174202,
             "lng": -117.162772
         },
@@ -1425,7 +1425,7 @@
             "display_location": "South Africa",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.86,
+            "rating": 5.81,
             "lat": -28.8166236,
             "lng": 24.991639
         },
@@ -1437,7 +1437,7 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.41,
+            "rating": 6.39,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -1449,7 +1449,7 @@
             "display_location": "England",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.45,
+            "rating": 6.56,
             "lat": 52.5310214,
             "lng": -1.2649062
         },
@@ -1461,7 +1461,7 @@
             "display_location": "Brighton, England",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.56,
+            "rating": 6.54,
             "lat": 50.8214626,
             "lng": -0.1400561
         },
@@ -1485,7 +1485,7 @@
             "display_location": "Toronto, Canada",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.07,
+            "rating": 6.08,
             "lat": 43.6534817,
             "lng": -79.3839347
         },
@@ -1497,9 +1497,9 @@
             "display_location": "Mount Vernon, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.66,
-            "lat": 38.3172715,
-            "lng": -88.9031201
+            "rating": 5.67,
+            "lat": 40.9125085,
+            "lng": -73.8386504
         },
         {
             "name": "Bicknell, Roman",
@@ -1521,7 +1521,7 @@
             "display_location": "Barrington, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.05,
+            "rating": 5.06,
             "lat": 42.1539141,
             "lng": -88.1361888
         },
@@ -1545,9 +1545,9 @@
             "display_location": "Singapore, Singapore",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.51,
-            "lat": 1.357107,
-            "lng": 103.8194992
+            "rating": 6.52,
+            "lat": 1.2899175,
+            "lng": 103.8519072
         },
         {
             "name": "Pandole, Jeh",
@@ -1558,8 +1558,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 5.79,
-            "lat": 18.9733536,
-            "lng": 72.82810491917377
+            "lat": 19.054999,
+            "lng": 72.8692035
         },
         {
             "name": "Punjabi, Tanay",
@@ -1570,8 +1570,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 6.19,
-            "lat": 18.9733536,
-            "lng": 72.82810491917377
+            "lat": 19.054999,
+            "lng": 72.8692035
         },
         {
             "name": "Raghavan, Shreemann",
@@ -1581,7 +1581,7 @@
             "display_location": "Chennai, India",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.22,
+            "rating": 6.23,
             "lat": 13.0836939,
             "lng": 80.270186
         },
@@ -1593,7 +1593,7 @@
             "display_location": "Haverford, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.19,
+            "rating": 5.2,
             "lat": 40.0131672,
             "lng": -75.2943516
         },
@@ -1605,7 +1605,7 @@
             "display_location": "Darien, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.89,
+            "rating": 5.9,
             "lat": 41.0787079,
             "lng": -73.4692873
         },
@@ -1654,8 +1654,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 1.5,
-            "lat": 18.9733536,
-            "lng": 72.82810491917377
+            "lat": 19.054999,
+            "lng": 72.8692035
         },
         {
             "name": "Singh, Syan",
@@ -1677,7 +1677,7 @@
             "display_location": "New York, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.22,
+            "rating": 6.23,
             "lat": 40.7127281,
             "lng": -74.0060152
         },
@@ -1702,8 +1702,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 5.86,
-            "lat": 39.017936,
-            "lng": -77.2094542
+            "lat": 39.0180508,
+            "lng": -77.1956331355745
         },
         {
             "name": "Chin, Jared",
@@ -1749,7 +1749,7 @@
             "display_location": "Cairo, Egypt",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.26,
+            "rating": 6.24,
             "lat": 30.0443879,
             "lng": 31.2357257
         },
@@ -1761,7 +1761,7 @@
             "display_location": "Los Angeles, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.82,
+            "rating": 5.83,
             "lat": 34.0536909,
             "lng": -118.242766
         },
@@ -1785,7 +1785,7 @@
             "display_location": "Redwood City, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.77,
+            "rating": 5.78,
             "lat": 37.4863239,
             "lng": -122.232523
         },
@@ -1797,7 +1797,7 @@
             "display_location": "Mercersburg, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.36,
+            "rating": 6.37,
             "lat": 39.8282214,
             "lng": -77.9037226
         },
@@ -1809,7 +1809,7 @@
             "display_location": "Boston, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.17,
+            "rating": 6.18,
             "lat": 42.3554334,
             "lng": -71.060511
         },
@@ -1821,7 +1821,7 @@
             "display_location": "United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.08,
+            "rating": 6.1,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -1857,7 +1857,7 @@
             "display_location": "Boston, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.92,
+            "rating": 5.93,
             "lat": 42.3554334,
             "lng": -71.060511
         },
@@ -1881,7 +1881,7 @@
             "display_location": "Mclean, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.07,
+            "rating": 6.08,
             "lat": 40.4631789,
             "lng": -88.8196613
         },
@@ -1905,7 +1905,7 @@
             "display_location": "Harrison, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.92,
+            "rating": 5.94,
             "lat": 32.5233959,
             "lng": -94.3982158
         },
@@ -1917,7 +1917,7 @@
             "display_location": "Greenwich, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.96,
+            "rating": 5.97,
             "lat": 41.0264862,
             "lng": -73.6284598
         },
@@ -1941,7 +1941,7 @@
             "display_location": "San Francisco, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.4,
+            "rating": 6.39,
             "lat": 37.7792588,
             "lng": -122.4193286
         },
@@ -1978,8 +1978,8 @@
             "record": "0-0",
             "team_position": null,
             "rating": 6.25,
-            "lat": 34.0100895,
-            "lng": -84.157935
+            "lat": 34.01000633651806,
+            "lng": -84.15784522188353
         },
         {
             "name": "Newton, William",
@@ -1989,7 +1989,7 @@
             "display_location": "Greenwich, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.07,
+            "rating": 6.08,
             "lat": 41.0264862,
             "lng": -73.6284598
         },
@@ -2001,7 +2001,7 @@
             "display_location": "Greenwich, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.9,
+            "rating": 5.89,
             "lat": 41.0264862,
             "lng": -73.6284598
         },
@@ -2013,7 +2013,7 @@
             "display_location": "San Mateo, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.12,
+            "rating": 6.14,
             "lat": 37.496904,
             "lng": -122.3330573
         },
@@ -2037,7 +2037,7 @@
             "display_location": "Rye, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.93,
+            "rating": 5.94,
             "lat": 40.9808209,
             "lng": -73.684294
         },
@@ -2061,7 +2061,7 @@
             "display_location": "Wynnewood, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.77,
+            "rating": 5.78,
             "lat": 40.0028514,
             "lng": -75.2707469
         },
@@ -2097,7 +2097,7 @@
             "display_location": "Greenwich, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.92,
+            "rating": 5.93,
             "lat": 41.0264862,
             "lng": -73.6284598
         },
@@ -2133,7 +2133,7 @@
             "display_location": "Chandigarh, India",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.97,
+            "rating": 5.96,
             "lat": 30.7334421,
             "lng": 76.7797143
         },
@@ -2157,7 +2157,7 @@
             "display_location": "Washington, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.16,
+            "rating": 6.17,
             "lat": 38.8950368,
             "lng": -77.0365427
         },
@@ -2169,33 +2169,9 @@
             "display_location": "Millburn, United States",
             "record": "0-0",
             "team_position": null,
-            "rating": 6.22,
+            "rating": 6.23,
             "lat": 40.7244443,
             "lng": -74.3069069
-        },
-        {
-            "name": "Agarwal, Akshat",
-            "team": "Franklin and Marshall College",
-            "city": "Kolkata",
-            "country": "India",
-            "display_location": "Kolkata, India",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.58,
-            "lat": 22.5726459,
-            "lng": 88.3638953
-        },
-        {
-            "name": "Arader, Alexander J",
-            "team": "Franklin and Marshall College",
-            "city": "New York",
-            "country": "United States",
-            "display_location": "New York, United States",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 6.26,
-            "lat": 40.7127281,
-            "lng": -74.0060152
         },
         {
             "name": "Broadhurst, Kyle",
@@ -2204,22 +2180,10 @@
             "country": "United States",
             "display_location": "Pittsburgh, United States",
             "record": "0-0",
-            "team_position": null,
-            "rating": 6.46,
+            "team_position": 1,
+            "rating": 6.47,
             "lat": 40.4416941,
             "lng": -79.9900861
-        },
-        {
-            "name": "Chandani, Aditya",
-            "team": "Franklin and Marshall College",
-            "city": "",
-            "country": "India",
-            "display_location": "India",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 6.06,
-            "lat": 22.3511148,
-            "lng": 78.6677428
         },
         {
             "name": "DiFilippo, Marco G",
@@ -2228,82 +2192,10 @@
             "country": "United States",
             "display_location": "Houston, United States",
             "record": "0-0",
-            "team_position": null,
-            "rating": 6.26,
+            "team_position": 2,
+            "rating": 6.3,
             "lat": 29.7589382,
             "lng": -95.3676974
-        },
-        {
-            "name": "Freed, Samuel",
-            "team": "Franklin and Marshall College",
-            "city": "Wellesley",
-            "country": "United States",
-            "display_location": "Wellesley, United States",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.72,
-            "lat": 42.2964859,
-            "lng": -71.2925571
-        },
-        {
-            "name": "Hinostroza, Juanber",
-            "team": "Franklin and Marshall College",
-            "city": "Pottstown",
-            "country": "United States",
-            "display_location": "Pottstown, United States",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.35,
-            "lat": 40.2452976,
-            "lng": -75.6496424
-        },
-        {
-            "name": "Jaswal, Arjun",
-            "team": "Franklin and Marshall College",
-            "city": "Bryn Mawr",
-            "country": "United States",
-            "display_location": "Bryn Mawr, United States",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 4.85,
-            "lat": 40.0238245,
-            "lng": -75.31734069085473
-        },
-        {
-            "name": "Katzer, Noah",
-            "team": "Franklin and Marshall College",
-            "city": "Brooklyn",
-            "country": "United States",
-            "display_location": "Brooklyn, United States",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 6.01,
-            "lat": 40.6526006,
-            "lng": -73.9497211
-        },
-        {
-            "name": "Kohli, Hunarpal",
-            "team": "Franklin and Marshall College",
-            "city": "Mumbai",
-            "country": "India",
-            "display_location": "Mumbai, India",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.26,
-            "lat": 18.9733536,
-            "lng": 72.82810491917377
-        },
-        {
-            "name": "Osborne, JP",
-            "team": "Franklin and Marshall College",
-            "city": "New York",
-            "country": "United States",
-            "display_location": "New York, United States",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 4.71,
-            "lat": 40.7127281,
-            "lng": -74.0060152
         },
         {
             "name": "Punjabi, Sharan",
@@ -2312,8 +2204,8 @@
             "country": "United States",
             "display_location": "United States",
             "record": "0-0",
-            "team_position": null,
-            "rating": 6.27,
+            "team_position": 3,
+            "rating": 6.26,
             "lat": 39.7837304,
             "lng": -100.445882
         },
@@ -2324,10 +2216,58 @@
             "country": "United States",
             "display_location": "Rye Brook, United States",
             "record": "0-0",
-            "team_position": null,
-            "rating": 6.21,
+            "team_position": 4,
+            "rating": 6.23,
             "lat": 41.0192641,
             "lng": -73.6834621
+        },
+        {
+            "name": "Arader, Alexander J",
+            "team": "Franklin and Marshall College",
+            "city": "New York",
+            "country": "United States",
+            "display_location": "New York, United States",
+            "record": "0-0",
+            "team_position": 5,
+            "rating": 6.28,
+            "lat": 40.7127281,
+            "lng": -74.0060152
+        },
+        {
+            "name": "Chandani, Aditya",
+            "team": "Franklin and Marshall College",
+            "city": "",
+            "country": "India",
+            "display_location": "India",
+            "record": "0-0",
+            "team_position": 6,
+            "rating": 6.2,
+            "lat": 22.3511148,
+            "lng": 78.6677428
+        },
+        {
+            "name": "Katzer, Noah",
+            "team": "Franklin and Marshall College",
+            "city": "Brooklyn",
+            "country": "United States",
+            "display_location": "Brooklyn, United States",
+            "record": "0-0",
+            "team_position": 7,
+            "rating": 6.0,
+            "lat": 40.6526006,
+            "lng": -73.9497211
+        },
+        {
+            "name": "Freed, Samuel",
+            "team": "Franklin and Marshall College",
+            "city": "Wellesley",
+            "country": "United States",
+            "display_location": "Wellesley, United States",
+            "record": "0-0",
+            "team_position": 8,
+            "rating": 5.73,
+            "lat": 42.2964859,
+            "lng": -71.2925571
         },
         {
             "name": "Tan, Evann",
@@ -2336,46 +2276,82 @@
             "country": "Singapore",
             "display_location": "Singapore, Singapore",
             "record": "0-0",
-            "team_position": null,
-            "rating": 5.63,
-            "lat": 1.357107,
-            "lng": 103.8194992
+            "team_position": 9,
+            "rating": 5.64,
+            "lat": 1.2899175,
+            "lng": 103.8519072
         },
         {
-            "name": "Bhangoo, Jagroop",
-            "team": "Western Ontario",
-            "city": "Lakeshore",
-            "country": "Canada",
-            "display_location": "Lakeshore, Canada",
+            "name": "Agarwal, Akshat",
+            "team": "Franklin and Marshall College",
+            "city": "Kolkata",
+            "country": "India",
+            "display_location": "Kolkata, India",
             "record": "0-0",
-            "team_position": null,
-            "rating": 5.78,
-            "lat": 42.3038299,
-            "lng": -82.8189267
+            "team_position": 10,
+            "rating": 5.55,
+            "lat": 22.5726459,
+            "lng": 88.3638953
         },
         {
-            "name": "Boulanger, Ben",
-            "team": "Western Ontario",
-            "city": "Calgary",
-            "country": "Canada",
-            "display_location": "Calgary, Canada",
+            "name": "Hinostroza, Juanber",
+            "team": "Franklin and Marshall College",
+            "city": "Pottstown",
+            "country": "United States",
+            "display_location": "Pottstown, United States",
             "record": "0-0",
-            "team_position": null,
-            "rating": 5.94,
-            "lat": 51.0456064,
-            "lng": -114.057541
+            "team_position": 11,
+            "rating": 5.37,
+            "lat": 40.2452976,
+            "lng": -75.6496424
         },
         {
-            "name": "Deverill, Daniel",
-            "team": "Western Ontario",
-            "city": "Cambridge",
-            "country": "Canada",
-            "display_location": "Cambridge, Canada",
+            "name": "Kohli, Hunarpal",
+            "team": "Franklin and Marshall College",
+            "city": "Mumbai",
+            "country": "India",
+            "display_location": "Mumbai, India",
             "record": "0-0",
-            "team_position": null,
-            "rating": 6.2,
-            "lat": 43.3600536,
-            "lng": -80.3123023
+            "team_position": 12,
+            "rating": 5.26,
+            "lat": 19.054999,
+            "lng": 72.8692035
+        },
+        {
+            "name": "Nayyar, Aman",
+            "team": "Franklin and Marshall College",
+            "city": "",
+            "country": "United States",
+            "display_location": "United States",
+            "record": "0-0",
+            "team_position": 13,
+            "rating": 5.06,
+            "lat": 39.7837304,
+            "lng": -100.445882
+        },
+        {
+            "name": "Jaswal, Arjun",
+            "team": "Franklin and Marshall College",
+            "city": "Bryn Mawr",
+            "country": "United States",
+            "display_location": "Bryn Mawr, United States",
+            "record": "0-0",
+            "team_position": 14,
+            "rating": 4.86,
+            "lat": 40.0238245,
+            "lng": -75.31734069085473
+        },
+        {
+            "name": "Osborne, JP",
+            "team": "Franklin and Marshall College",
+            "city": "New York",
+            "country": "United States",
+            "display_location": "New York, United States",
+            "record": "0-0",
+            "team_position": 15,
+            "rating": 4.7,
+            "lat": 40.7127281,
+            "lng": -74.0060152
         },
         {
             "name": "Deverill, Dylan",
@@ -2384,10 +2360,238 @@
             "country": "Canada",
             "display_location": "Cambridge, Canada",
             "record": "0-0",
-            "team_position": null,
+            "team_position": 1,
             "rating": 6.59,
             "lat": 43.3600536,
             "lng": -80.3123023
+        },
+        {
+            "name": "Deverill, Daniel",
+            "team": "Western Ontario",
+            "city": "Cambridge",
+            "country": "Canada",
+            "display_location": "Cambridge, Canada",
+            "record": "0-0",
+            "team_position": 2,
+            "rating": 6.18,
+            "lat": 43.3600536,
+            "lng": -80.3123023
+        },
+        {
+            "name": "Kay, Josh",
+            "team": "Western Ontario",
+            "city": "Toronto",
+            "country": "Canada",
+            "display_location": "Toronto, Canada",
+            "record": "0-0",
+            "team_position": 3,
+            "rating": 6.03,
+            "lat": 43.6534817,
+            "lng": -79.3839347
+        },
+        {
+            "name": "Khan, Amin",
+            "team": "Western Ontario",
+            "city": "Windsor",
+            "country": "Canada",
+            "display_location": "Windsor, Canada",
+            "record": "0-0",
+            "team_position": 4,
+            "rating": 6.08,
+            "lat": 42.3167397,
+            "lng": -83.0373389
+        },
+        {
+            "name": "Mendes, Antonio",
+            "team": "Western Ontario",
+            "city": "Calgary",
+            "country": "Canada",
+            "display_location": "Calgary, Canada",
+            "record": "0-0",
+            "team_position": 5,
+            "rating": 6.22,
+            "lat": 51.0456064,
+            "lng": -114.057541
+        },
+        {
+            "name": "Znidarec, William",
+            "team": "Western Ontario",
+            "city": "Winnipeg",
+            "country": "Canada",
+            "display_location": "Winnipeg, Canada",
+            "record": "0-0",
+            "team_position": 6,
+            "rating": 5.99,
+            "lat": 49.8955367,
+            "lng": -97.1384584
+        },
+        {
+            "name": "Schafer, Rio",
+            "team": "Western Ontario",
+            "city": "Victoria",
+            "country": "Canada",
+            "display_location": "Victoria, Canada",
+            "record": "0-0",
+            "team_position": 7,
+            "rating": 6.03,
+            "lat": 48.4283182,
+            "lng": -123.364953
+        },
+        {
+            "name": "Boulanger, Ben",
+            "team": "Western Ontario",
+            "city": "Calgary",
+            "country": "Canada",
+            "display_location": "Calgary, Canada",
+            "record": "0-0",
+            "team_position": 8,
+            "rating": 5.92,
+            "lat": 51.0456064,
+            "lng": -114.057541
+        },
+        {
+            "name": "Schille, Tyson",
+            "team": "Western Ontario",
+            "city": "Calgary",
+            "country": "Canada",
+            "display_location": "Calgary, Canada",
+            "record": "0-0",
+            "team_position": 9,
+            "rating": 5.97,
+            "lat": 51.0456064,
+            "lng": -114.057541
+        },
+        {
+            "name": "Khot, Arin",
+            "team": "Western Ontario",
+            "city": "Mumbai",
+            "country": "India",
+            "display_location": "Mumbai, India",
+            "record": "0-0",
+            "team_position": 10,
+            "rating": 5.92,
+            "lat": 19.054999,
+            "lng": 72.8692035
+        },
+        {
+            "name": "Bhangoo, Jagroop",
+            "team": "Western Ontario",
+            "city": "Lakeshore",
+            "country": "Canada",
+            "display_location": "Lakeshore, Canada",
+            "record": "0-0",
+            "team_position": 11,
+            "rating": 5.8,
+            "lat": 42.3038299,
+            "lng": -82.8189267
+        },
+        {
+            "name": "Jones, Jack",
+            "team": "Western Ontario",
+            "city": "Toronto",
+            "country": "Canada",
+            "display_location": "Toronto, Canada",
+            "record": "0-0",
+            "team_position": 12,
+            "rating": 5.78,
+            "lat": 43.6534817,
+            "lng": -79.3839347
+        },
+        {
+            "name": "Manley, Griffin M",
+            "team": "Western Ontario",
+            "city": "Toronto",
+            "country": "Canada",
+            "display_location": "Toronto, Canada",
+            "record": "0-0",
+            "team_position": 13,
+            "rating": 5.86,
+            "lat": 43.6534817,
+            "lng": -79.3839347
+        },
+        {
+            "name": "Quon, Lucas",
+            "team": "Western Ontario",
+            "city": "Victoria",
+            "country": "Canada",
+            "display_location": "Victoria, Canada",
+            "record": "0-0",
+            "team_position": 14,
+            "rating": 5.87,
+            "lat": 48.4283182,
+            "lng": -123.364953
+        },
+        {
+            "name": "Knapp, Michael",
+            "team": "Western Ontario",
+            "city": "Calgary",
+            "country": "Canada",
+            "display_location": "Calgary, Canada",
+            "record": "0-0",
+            "team_position": 15,
+            "rating": 5.79,
+            "lat": 51.0456064,
+            "lng": -114.057541
+        },
+        {
+            "name": "Liu, Morven",
+            "team": "Western Ontario",
+            "city": "Vancouver",
+            "country": "Canada",
+            "display_location": "Vancouver, Canada",
+            "record": "0-0",
+            "team_position": 16,
+            "rating": 5.55,
+            "lat": 49.2608724,
+            "lng": -123.113952
+        },
+        {
+            "name": "Kim, Daniel",
+            "team": "Western Ontario",
+            "city": "Toronto",
+            "country": "Canada",
+            "display_location": "Toronto, Canada",
+            "record": "0-0",
+            "team_position": 17,
+            "rating": 5.44,
+            "lat": 43.6534817,
+            "lng": -79.3839347
+        },
+        {
+            "name": "Huq, Eesa",
+            "team": "Western Ontario",
+            "city": "Niagara Falls",
+            "country": "Canada",
+            "display_location": "Niagara Falls, Canada",
+            "record": "0-0",
+            "team_position": 18,
+            "rating": 5.49,
+            "lat": 43.1065603,
+            "lng": -79.0639039
+        },
+        {
+            "name": "Mehta, Vishaal",
+            "team": "Western Ontario",
+            "city": "Windsor",
+            "country": "Canada",
+            "display_location": "Windsor, Canada",
+            "record": "0-0",
+            "team_position": 19,
+            "rating": 5.49,
+            "lat": 42.3167397,
+            "lng": -83.0373389
+        },
+        {
+            "name": "Shah, Sujai",
+            "team": "Western Ontario",
+            "city": "London",
+            "country": "Canada",
+            "display_location": "London, Canada",
+            "record": "0-0",
+            "team_position": 20,
+            "rating": 5.27,
+            "lat": 42.9832406,
+            "lng": -81.243372
         },
         {
             "name": "El Adly, Nour",
@@ -2397,7 +2601,7 @@
             "display_location": "Cairo, Egypt",
             "record": "0-0",
             "team_position": null,
-            "rating": 4.98,
+            "rating": 5.13,
             "lat": 30.0443879,
             "lng": 31.2357257
         },
@@ -2409,141 +2613,9 @@
             "display_location": "Toronto, Canada",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.22,
+            "rating": 5.14,
             "lat": 43.6534817,
             "lng": -79.3839347
-        },
-        {
-            "name": "Huq, Eesa",
-            "team": "Western Ontario",
-            "city": "Niagara Falls",
-            "country": "Canada",
-            "display_location": "Niagara Falls, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.48,
-            "lat": 43.1065603,
-            "lng": -79.0639039
-        },
-        {
-            "name": "Jones, Jack",
-            "team": "Western Ontario",
-            "city": "Toronto",
-            "country": "Canada",
-            "display_location": "Toronto, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.79,
-            "lat": 43.6534817,
-            "lng": -79.3839347
-        },
-        {
-            "name": "Kay, Josh",
-            "team": "Western Ontario",
-            "city": "Toronto",
-            "country": "Canada",
-            "display_location": "Toronto, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.99,
-            "lat": 43.6534817,
-            "lng": -79.3839347
-        },
-        {
-            "name": "Khan, Amin",
-            "team": "Western Ontario",
-            "city": "Windsor",
-            "country": "Canada",
-            "display_location": "Windsor, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 6.1,
-            "lat": 42.2858536,
-            "lng": -82.9780695
-        },
-        {
-            "name": "Khot, Arin",
-            "team": "Western Ontario",
-            "city": "Mumbai",
-            "country": "India",
-            "display_location": "Mumbai, India",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.87,
-            "lat": 18.9733536,
-            "lng": 72.82810491917377
-        },
-        {
-            "name": "Kim, Daniel",
-            "team": "Western Ontario",
-            "city": "Toronto",
-            "country": "Canada",
-            "display_location": "Toronto, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.45,
-            "lat": 43.6534817,
-            "lng": -79.3839347
-        },
-        {
-            "name": "Knapp, Michael",
-            "team": "Western Ontario",
-            "city": "Calgary",
-            "country": "Canada",
-            "display_location": "Calgary, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.76,
-            "lat": 51.0456064,
-            "lng": -114.057541
-        },
-        {
-            "name": "Liu, Morven",
-            "team": "Western Ontario",
-            "city": "Vancouver",
-            "country": "Canada",
-            "display_location": "Vancouver, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.49,
-            "lat": 49.2608724,
-            "lng": -123.113952
-        },
-        {
-            "name": "Manley, Griffin M",
-            "team": "Western Ontario",
-            "city": "Toronto",
-            "country": "Canada",
-            "display_location": "Toronto, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.88,
-            "lat": 43.6534817,
-            "lng": -79.3839347
-        },
-        {
-            "name": "Mehta, Vishaal",
-            "team": "Western Ontario",
-            "city": "Windsor",
-            "country": "Canada",
-            "display_location": "Windsor, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.53,
-            "lat": 42.2858536,
-            "lng": -82.9780695
-        },
-        {
-            "name": "Mendes, Antonio",
-            "team": "Western Ontario",
-            "city": "Calgary",
-            "country": "Canada",
-            "display_location": "Calgary, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 6.23,
-            "lat": 51.0456064,
-            "lng": -114.057541
         },
         {
             "name": "Morrison, Murdoch  A",
@@ -2553,69 +2625,9 @@
             "display_location": "Calgary, Canada",
             "record": "0-0",
             "team_position": null,
-            "rating": 5.54,
+            "rating": 5.55,
             "lat": 51.0456064,
             "lng": -114.057541
-        },
-        {
-            "name": "Quon, Lucas",
-            "team": "Western Ontario",
-            "city": "Victoria",
-            "country": "Canada",
-            "display_location": "Victoria, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.87,
-            "lat": 48.4283182,
-            "lng": -123.364953
-        },
-        {
-            "name": "Schafer, Rio",
-            "team": "Western Ontario",
-            "city": "Victoria",
-            "country": "Canada",
-            "display_location": "Victoria, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 6.01,
-            "lat": 48.4283182,
-            "lng": -123.364953
-        },
-        {
-            "name": "Schille, Tyson",
-            "team": "Western Ontario",
-            "city": "Calgary",
-            "country": "Canada",
-            "display_location": "Calgary, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.97,
-            "lat": 51.0456064,
-            "lng": -114.057541
-        },
-        {
-            "name": "Shah, Sujai",
-            "team": "Western Ontario",
-            "city": "London",
-            "country": "Canada",
-            "display_location": "London, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.26,
-            "lat": 42.9832406,
-            "lng": -81.243372
-        },
-        {
-            "name": "Znidarec, William",
-            "team": "Western Ontario",
-            "city": "Winnipeg",
-            "country": "Canada",
-            "display_location": "Winnipeg, Canada",
-            "record": "0-0",
-            "team_position": null,
-            "rating": 5.95,
-            "lat": 49.8955367,
-            "lng": -97.1384584
         }
     ]
 }

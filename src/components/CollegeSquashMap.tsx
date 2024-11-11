@@ -34,6 +34,7 @@ export default function CollegeSquashMap({
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const popupRef = useRef<mapboxgl.Popup | null>(null);
   const mapLoadedRef = useRef(false);
+  const prevCoordsRef = useRef<[number, number] | null>(null);
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const createPopupHTML = (player: Player | null) => {
@@ -168,11 +169,27 @@ export default function CollegeSquashMap({
 
   useEffect(() => {
     if (mapRef.current && currentPlayer) {
-      mapRef.current.flyTo({
-        center: [currentPlayer.lng, currentPlayer.lat],
-        zoom: 8,
-        duration: 2000,
-      });
+      const newCoords: [number, number] = [
+        currentPlayer.lng,
+        currentPlayer.lat,
+      ];
+
+      // Ensure map fills container after any layout changes
+      mapRef.current.resize();
+
+      // Only fly if coordinates have changed or there were no previous coordinates
+      if (
+        !prevCoordsRef.current ||
+        prevCoordsRef.current[0] !== newCoords[0] ||
+        prevCoordsRef.current[1] !== newCoords[1]
+      ) {
+        mapRef.current.flyTo({
+          center: newCoords,
+          zoom: 8,
+          duration: 2000,
+        });
+        prevCoordsRef.current = newCoords;
+      }
 
       popupRef.current?.remove();
       popupRef.current = new mapboxgl.Popup({
@@ -180,11 +197,13 @@ export default function CollegeSquashMap({
         closeButton: false,
         closeOnClick: true,
       })
-        .setLngLat([currentPlayer.lng, currentPlayer.lat])
+        .setLngLat(newCoords)
         .setHTML(createPopupHTML(currentPlayer))
         .addTo(mapRef.current);
     } else if (mapRef.current) {
+      mapRef.current.resize();
       popupRef.current?.remove();
+      prevCoordsRef.current = null;
     }
   }, [createPopupHTML, currentPlayer]);
 
