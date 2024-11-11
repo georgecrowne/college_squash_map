@@ -10,9 +10,9 @@ import {
   SelectValue,
 } from "@/components/Select";
 import players from "@/data/players.json";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 
-interface Player {
+export interface Player {
   name: string;
   team: string;
   city: string;
@@ -29,7 +29,7 @@ const yearOptions = [
   { value: "2018", text: "2017-2018" },
   { value: "2019", text: "2018-2019" },
   { value: "2020", text: "2019-2020" },
-  { value: "2021", text: "2020-2021" },
+  { value: "2021", text: "2020-2021 - Cancelled, Covid", disabled: true },
   { value: "2022", text: "2021-2022" },
   { value: "2023", text: "2022-2023" },
   { value: "2024", text: "2023-2024" },
@@ -39,19 +39,29 @@ const yearOptions = [
 export default function Home() {
   const [selectedYear, setSelectedYear] = useState(yearOptions[0].value);
   const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
-
+  const [gender, setGender] = useState("mens");
+  useEffect(() => {
+    setSelectedPlayer(null);
+  }, [gender]);
   const playersData = useMemo(() => {
-    const yearData = players.find((year) => year.year === selectedYear);
-    const data = yearData ? yearData.players : [];
-    return data.map((player) => ({
+    const yearData = players[gender as keyof typeof players].find(
+      (year: { year: string }) => year.year === selectedYear
+    );
+    console.log(yearData);
+    const playersList = yearData ? yearData.players : [];
+    return playersList.map((player: Player) => ({
       ...player,
     }));
-  }, [selectedYear]);
+  }, [selectedYear, gender]);
 
   const handlePlayerClick = (player: Player) => {
-    setSelectedPlayer({
-      ...player,
-    });
+    if (selectedPlayer?.name === player.name) {
+      setSelectedPlayer(null);
+    } else {
+      setSelectedPlayer({
+        ...player,
+      });
+    }
   };
 
   return (
@@ -59,8 +69,32 @@ export default function Home() {
       <div className="flex flex-col md:flex-row gap-2 h-full">
         <div className="w-full md:w-1/3 h-full flex flex-col">
           <>
-            <div className="rounded-lg bg-white mb-2">
-              <label htmlFor="year">Year:</label>
+            <div className="rounded-lg bg-white mb-2 space-y-2">
+              <div className="flex items-center justify-between">
+                <label htmlFor="year">Year:</label>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => setGender("mens")}
+                    className={`px-3 py-1 rounded ${
+                      gender === "mens"
+                        ? "bg-blue-500 text-white"
+                        : "bg-gray-100"
+                    }`}
+                  >
+                    Men&apos;s
+                  </button>
+                  <button
+                    onClick={() => setGender("womens")}
+                    className={`px-3 py-1 rounded ${
+                      gender === "womens"
+                        ? "bg-blue-500 text-white"
+                        : "bg-gray-100"
+                    }`}
+                  >
+                    Women&apos;s
+                  </button>
+                </div>
+              </div>
               <Select
                 value={selectedYear}
                 onValueChange={(year) => {
@@ -74,7 +108,16 @@ export default function Home() {
                 <SelectContent>
                   <SelectGroup>
                     {yearOptions.map((option) => (
-                      <SelectItem key={option.value} value={option.value}>
+                      <SelectItem
+                        key={option.value}
+                        value={option.value}
+                        disabled={option.value === "2021"}
+                        className={
+                          option.value === "2021"
+                            ? "opacity-50 cursor-not-allowed"
+                            : "cursor-pointer"
+                        }
+                      >
                         {option.text}
                       </SelectItem>
                     ))}
@@ -126,6 +169,7 @@ export default function Home() {
         <div className="w-full md:w-2/3 flex flex-col h-full">
           <div className={selectedPlayer ? "h-2/3" : "h-full"}>
             <CollegeSquashMap
+              key={gender + selectedYear}
               currentPlayer={selectedPlayer}
               players={playersData}
             />
